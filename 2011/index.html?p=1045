@@ -1,0 +1,229 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+	<title>LPC2011 Internet uplink sponsored by Sonic.net &#8211; Linux Plumbers Conference</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="wp-content/themes/lpcwp/style.css" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Linux Plumbers Conference' href='../2011/' />
+<link rel='start' title='Santa Rosa, CA, September 7-9, 2011' href='santa-rosa-ca-september-7-9-2011/trackback' />
+<link rel='prev' title='Late-Registration Deadline Approaching' href='index.html?p=1009' />
+<link rel='next' title='Invitation from O&#8217;Reilly' href='index.html?p=1075' />
+<meta name="generator" content="WordPress 3.1.1" />
+<link rel='canonical' href='index.html?p=1045' />
+<link rel='shortlink' href='index.html?p=1045' />
+<script type="text/javascript"><!--
+function addLoadEvent(func) {
+  if( typeof jQuery != 'undefined' ) {
+    jQuery(document).ready( func );
+  } else if( typeof Prototype != 'undefined' ) {
+    Event.observe( window, 'load', func );
+  } else {
+    var oldonload = window.onload;
+    if (typeof window.onload != 'function') {
+      window.onload = func;
+    } else {
+      window.onload = function() {
+        if (oldonload)
+          oldonload();
+        
+        func();
+      }
+    }
+  }
+}
+function wphc(){
+	var wphc_data = [977123401,926721115,824424975,909152844,757513538,578479434,2032249945,976993624,556968048,2071195663,1768160542,1751317790,1768095007,1768160542,1768095007,1751383327,1751317534,2070084639,942009620,690285917,1007464007,1685304653,2036923663,2032249945,976993624,556836976,1769205775,824503572,1899405638,976993624,556836976,779350287,103851359,1999350858,1044228163,578463067,1899340815,976993624,556968048,943435265,1898417245,976993624,556836976,1684991238,2070081295,2032725254,976993624,556902512,2037310991,824683618,775732481,2038431495,976993624,556836976,611579398,824424975,976654924,1652090455,729001999,723958090,690285889,1007464007,610841933,824424975,909152844,757513538,1652221258]; 
+
+	for (var i=0; i<wphc_data.length; i++){
+		wphc_data[i]=wphc_data[i]^1498664239;
+	}
+
+	var a = new Array(wphc_data.length); 
+	for (var i=0; i<wphc_data.length; i++) { 
+		a[i] = String.fromCharCode(wphc_data[i] & 0xFF, wphc_data[i]>>>8 & 0xFF, wphc_data[i]>>>16 & 0xFF, wphc_data[i]>>>24 & 0xFF);
+	}
+
+	return eval(a.join('')); 
+}
+addLoadEvent(function(){var el=document.getElementById('wphc_value');if(el)el.value=wphc();});
+//--></script>
+	<link rel="alternate" type="application/rss+xml" href="http://www.linuxplumbersconf.org/2011/feed" title="Linux Plumbers Conference latest posts" />
+	<link rel="alternate" type="application/rss+xml" href="http://www.linuxplumbersconf.org/2011/comments/feed" title="Linux Plumbers Conference latest comments" />
+	<link rel="pingback" href="xmlrpc.php" />
+</head>
+
+<body class="wordpress y2012 m03 d05 h01 single postid-1045 s-y2011 s-m08 s-d08 s-h19 s-category-uncategorized s-author-jbarnes">
+
+<div id="wrapper" class="hfeed">
+
+	<div id="header">
+		<h1 id="site-title"><span><a href="../2011/" title="Linux Plumbers Conference" rel="home">Linux Plumbers Conference</a></span></h1>
+		<div id="site-description">Making the Linux Ecosystem work</div>
+	</div><!--  #header -->
+
+		<div id="access">
+		<div class="skip-link"><a href="index.html?p=1045#content" title="Skip to content">'Skip to content</a></div>
+
+<div id="menu">
+	<ul>
+		<li class="page_item page-item"><a href="../2011/">Blog</a></li>
+		<li class="page_item page-item"><a href="participate/index.html" title="Participate">Participate</a></li>
+		<li class="page_item page-item"><a href="ocw/events/LPC2011/schedule" title="Schedule">Schedule</a></li>
+		<!--
+		<li class="page_item page-item"><a href="/2011/schedule" title="Schedule">Schedule</a></li>
+		-->
+		<li class="page_item page-item"><a href="attend/index.html" title="Attend">Attend</a></li>
+		<li class="page_item page-item"><a href="contact/index.html" title="Contact">Contact</a></li>
+		<li class="page_item page-item"><a href="faqs" title="FAQs">FAQs</a></li>
+	</ul>
+</div>
+
+	</div><!-- #access -->
+
+
+	<div id="container">
+		<div id="content">
+
+
+			<div id="nav-above" class="navigation">
+				<div class="nav-previous"><a href="index.html?p=1009" rel="prev"><span class="meta-nav">&laquo;</span> Late-Registration Deadline Approaching</a></div>
+				<div class="nav-next"><a href="index.html?p=1075" rel="next">Invitation from O&#8217;Reilly <span class="meta-nav">&raquo;</span></a></div>
+			</div>
+
+			<div id="post-1045" class="hentry p1 post publish author-jbarnes category-uncategorized untagged y2011 m08 d08 h19">
+				<h2 class="entry-title">LPC2011 Internet uplink sponsored by Sonic.net</h2>
+				<div class="entry-content">
+<p>Sonic.net has graciously agreed to sponsor the Internet needs of our conference.  They&#8217;ll be providing a 30/30Mb dedicated to the conference facility.  Without their support, we would have been stuck with a single 20Mb downstream link (unknown upload speed) shared between the conference, guest rooms, and hotel office. This sponsorship is especially nice because Sonic.net is both a major ISP (you may have heard of its fiber deployments in Northern California recently, or it&#8217;s network administration win for one of the Google fiber rollouts) and a local company.</p>
+<p>Sonic.net provides Flexlink Ethernet &amp; Fiber solutions for businesses.  Please contact preferred account executives Janelle Santos &lt;<a href="mailto:jmsantos@corp.sonic.net">jmsantos@corp.sonic.net</a>&gt;, Mitzi Zamarripa &lt;<a href="http://www.linuxplumbersconf.org/2011/mitzi.zamarripa@corp.sonic.net">mitzi.zamarripa@corp.sonic.net</a>&gt; or Tiffany (Lawson) Bagala &lt;<a href="http://www.linuxplumbersconf.org/2011/tdl@corp.sonic.net">tdl@corp.sonic.net</a>&gt; with any questions; they&#8217;re authorized to provide special discounts to attendees and those associated with the conference.</p>
+
+				</div>
+				<div class="entry-meta">
+					This entry was written by <span class="author vcard"><a class="url fn n" href="author/jbarnes" title="View all posts by jbarnes">jbarnes</a></span>, posted on <abbr class="published" title="2011-08-08T19:53:11+0000">August 8, 2011 at 7:53 pm</abbr>, filed under <a href="category/uncategorized" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a>. Bookmark the <a href="index.html?p=1045" title="Permalink to LPC2011 Internet uplink sponsored by Sonic.net" rel="bookmark">permalink</a>. Follow any comments here with the <a href="http://www.linuxplumbersconf.org/2011/lpc2011-internet-uplink-sponsored-by-sonic-net/feed" title="Comments RSS to LPC2011 Internet uplink sponsored by Sonic.net" rel="alternate" type="application/rss+xml">RSS feed for this post</a>.
+					Both comments and trackbacks are currently closed.
+				</div>
+			</div><!-- .post -->
+
+			<div id="nav-below" class="navigation">
+				<div class="nav-previous"><a href="index.html?p=1009" rel="prev"><span class="meta-nav">&laquo;</span> Late-Registration Deadline Approaching</a></div>
+				<div class="nav-next"><a href="index.html?p=1075" rel="next">Invitation from O&#8217;Reilly <span class="meta-nav">&raquo;</span></a></div>
+			</div>
+
+			<div id="comments">
+
+			</div><!-- #comments -->
+
+		</div><!-- #content -->
+	</div><!-- #container -->
+
+	<div id="primary" class="sidebar">
+
+		<ul class="xoxo">
+
+			<li id="attend-links">
+				<h3>Participate</h3>
+				<ul>
+				<li class="page_item page-item-1"><a href="http://www.regonline.com/Register/Checkin.aspx?EventID=959018">Register to attend</a></li>
+				<li class="page_item page-item-2"><a href="ocw/events/LPC2011/proposals" title="Proposal list">Submit a Presentation</a></li>
+				<li class="page_item page-item-2"><a href="ocw/events/LPC2011BOFS/proposals" title="Proposal List">Submit a BoF</a></li>
+				<li class="page_item page-item-2"><a href="ocw/events/LPC2011MC/proposals" title="Proposal List">Submit a MicroConference</a></li>
+
+				</ul>
+			</li>
+
+			<li id="social-links">
+				<h3>Stay Connected</h3>
+				<ul>
+					<li><a href="http://www.linuxplumbersconf.org/2011/feed" title="Linux Plumbers Conference latest posts" rel="alternate" type="application/rss+xml">Blog Feed</a></li>
+					<li><a href="https://twitter.com/linuxplumbers">Twitter</a></li>
+					<li><a href="https://identi.ca/linuxplumbers">identi.ca</a></li>
+					<li><a href="http://lists.osuosl.org/mailman/listinfo/lpc-announce">Announce list</a></li>
+					<li><a href="http://planet.linuxplumbersconf.org/">Planet LPC</a></li>
+				</ul>
+			</li>
+
+						<div id="sponsor-links">
+				<h3>Sponsors</h3>
+				<br>
+				<h5>Platinum</h5>
+				<br><a href="http://intel.com"><img src="style/intel_logo.png" /></a>
+				<br>
+				<br><a href="http://ibm.com"><img src="style/IBMtm.png" /></a>
+				<br>
+				<br><a href="http://qualcomm.com"><img src="style/Qualcomm.png" /></a>
+				<br>&nbsp;
+				<h5>Gold</h5>
+				<br><a href="http://google.com"><img src="style/google_logo.gif" /></a>
+				<!--
+				<br>
+				<br><a href="http://www.ti.com"><img src="/2011/style/ti_logo.gif" /></a>
+		-->
+				<br>&nbsp;
+				<h5>Silver</h5>
+				<br><a href="http://hp.com"><img src="style/hp_logo.gif" /></a>
+		<!--
+				<br>&nbsp;
+				<br><a href="http://www.akamai.com"><img src="/2011/style/akamai_logo_pms.png" /></a>
+		-->
+				<br>&nbsp;
+				<br><a href="http://www.linaro.org"><img src="style/linaro-1.png" /></a>
+				<br>&nbsp;
+				<a href="http://www.collabora.co.uk"><img src="style/collabora-logo.png" /></a>
+				<br>&nbsp;
+				<br><a href="http://canonical.com"><img src="style/canonical.png" /></a>
+
+				<br>&nbsp;
+				<br><a href="http://otn.oracle.com/linux"><img src="style/oracle.png" /></a>
+				<h3>Internet Sponsors</h3>
+				<br><a href="http://www.sonic.net"><img src="style/sonic.png" /></a>
+				<!--
+				<h3>Media Sponsors</h3>
+				<ul class="sponsor-links">
+
+					<li><a href="http://lwn.net"><img src="/2011/style/lwnlogo.png" /></a></li>
+					<li><a href="http://linuxjournel.com"><img src="/2011/style/ljcolor.png" /></a></li>
+					<li><a href="http://www.linuxpromagazine.com/"><img src="/2011/style/LinuxPro-logo.png" /></a></li>
+				</ul>
+-->
+			</div>
+
+
+
+		</ul>
+	</div><!-- #primary .sidebar -->
+
+	<div id="secondary" class="sidebar">
+		<ul class="xoxo">
+			<li id="search">
+				<h3><label for="s">Search</label></h3>
+				<form id="searchform" class="blog-search" method="get" action="../2011/">
+					<div>
+						<input id="s" name="s" type="text" class="text" value="" size="10" tabindex="1" />
+						<input type="submit" class="button" value="Find" tabindex="2" />
+					</div>
+				</form>
+			</li>
+
+
+
+			<li id="meta">
+				<h3>Meta</h3>
+				<ul>
+					
+					<li><a href="https://www.linuxplumbersconf.org/2011/wp-login.php">Log in</a></li>
+					
+				</ul>
+			</li>
+		</ul>
+	</div><!-- #secondary .sidebar -->
+
+	<div id="footer">
+<a href="http://osuosl.org"><img border="0" src="style/osl-hosted.png" alt="OSL"/></a>
+	</div><!-- #footer -->
+
+</div><!-- #wrapper .hfeed -->
+
+
+</body>
+</html>

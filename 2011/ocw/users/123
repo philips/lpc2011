@@ -1,0 +1,314 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+  <title>Weiwei Xiong / Linux Plumbers Conference: Developing the Kernel, Libraries and Utilities / September 7-9, 2011 / Santa Rosa, CA</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="description" content="Developing the Kernel, Libraries and Utilities / September 7-9, 2011 / Santa Rosa, CA" />
+
+  <!-- Feeds -->
+  <link href="../proposals.atom" rel="alternate" title="Linux Plumbers Conference: Proposals feed" type="application/atom+xml" />
+  
+
+  <!-- Stylesheets -->
+  
+    <link href="http://linuxplumbersconf.org/2011/style/style.css" media="screen" rel="stylesheet" type="text/css" />
+  
+  <link href="../themes/lpc/stylesheets/custom.css?1324622285" media="screen" rel="Stylesheet" type="text/css" />
+  
+
+  <!-- Dynamic styles -->
+  
+    
+  
+
+  <!-- Scripts -->
+  <script src="../javascripts/jquery.min.js" type="text/javascript"></script>
+  <script src="../javascripts/jquery-ui.effects.core.js" type="text/javascript"></script>
+  <script src="../javascripts/jquery-ui.effects.highlight.js" type="text/javascript"></script>
+  <script src="../javascripts/application.js" type="text/javascript"></script>
+  
+    
+    
+  <script type="text/javascript" charset="utf-8">
+    $(document).ready(function() {
+      app.current_user = false;
+      app.authenticity_token = '2c4443b355bc31bee23c787833cb0a270f09bb07';
+    });
+  </script>
+</head>
+
+
+
+<body>
+  <div id="wrapper">
+     <div id="header">
+           <h1 id="site-title"><span><a href="http://linuxplumbersconf.org/2011/" title="Linux Plumbers Conf 2011" rel="home">Linux Plumbers Conf 2011</a></span></h1>
+           <div id="site-description">Developing the Kernel, Libraries and Utilities</div>
+      </div>
+
+      	<div id="access">
+		<div class="skip-link"><a href="123#content" title="Skip to content">'Skip to content</a></div>
+
+<div id="menu">
+	<ul>
+		<li class="page_item page-item"><a href="../../../2011/">Blog</a></li>
+		<li class="page_item page-item"><a href="../../participate/index.html" title="Participate">Participate</a></li>
+		<li class="page_item page-item"><a href="../events/LPC2011/schedule" title="Schedule">Schedule</a></li>
+		<!--
+		<li class="page_item page-item"><a href="/2011/schedule" title="Schedule">Schedule</a></li>
+		-->
+		<li class="page_item page-item"><a href="../../attend/index.html" title="Attend">Attend</a></li>
+		<li class="page_item page-item"><a href="../../contact/index.html" title="Contact">Contact</a></li>
+		<li class="page_item page-item"><a href="../../faqs" title="FAQs">FAQs</a></li>
+	</ul>
+</div>
+
+	</div><!-- #access -->
+
+
+      <div id="container">
+        <div id="content">
+          <h2 class='entry-title'>Proposals</h2>
+          
+
+          <h2 class='page_title'>Weiwei Xiong</h2>
+
+          <!-- Display notices -->
+          
+          
+          
+          
+
+          <!-- Display view's content -->
+          
+
+
+  
+
+<div class="user_box vcard ">
+  
+  <div class='user_head'>
+    <h3><a href="123" class="fn n" id="id_123" name="id_123">Weiwei Xiong</a></h3>
+        <span class='affiliation org'>UCSD/UIUC</span>
+      </div>
+  <div class='user_body'>
+    <div class='user_links'>
+      <ul>
+                
+          <li>Website: <a href="http://www.xiongww.com/" onclick="window.open(this.href);return false;" rel="nofollow">http://www.xiongww.com/</a></li>
+        
+        
+        
+          <li>Twitter: <a href="http://twitter.com/xiongww" onclick="window.open(this.href);return false;" rel="nofollow">xiongww</a></li>
+        
+        
+        
+              </ul>
+    </div>
+
+  
+    <h4>Biography</h4>
+    <div class='note'>
+      <p>Weiwei Xiong is currently a 4th year PhD student at <span class="caps">UCSD</span>/<span class="caps">UIUC</span>. Since Aug 2007, he has been working in <span class="caps">OPERA</span> Group with professor Yuanyuan Zhou on improving systems reliability with support from operating systems, programming language, architecture and any other useful techniques.</p>
+<p>Weiwei Xiong had several research papers about systems reliability at <span class="caps">OSDI</span>, <span class="caps">SOSP</span>, <span class="caps">ASPLOS</span>, etc.</p>
+    </div>
+  
+  
+  
+  
+  
+    
+
+  
+    <div id="sub_list_for_event_9" class="sub_list_for_event ">
+      
+      
+      
+        
+
+
+  <div class="proposals_sub_list_for_kind proposals_sub_list_for_kind_proposals">
+    <div class="proposals_sub_list_for_kind_toggle" style="display: none">
+      <a href="123#">Display proposals...</a>
+    </div>
+    <div class="proposals_sub_list_for_kind_content">
+      <h4>Proposals for this user</h4>
+      
+
+
+  
+
+  
+    <table class='proposals kind_proposals' cellspacing='0'>
+      
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_69'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="me/favorites" class="favorite favorite_69"><span>*</span></a>
+            
+              <a href="../sessions/69" class="title">Ad Hoc Synchronization Considered Harmful</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            A characteristic study on ad hoc synchronization in software systems and a tool called SyncFinder to automatically identify and annotate them.
+	    <a href="http://linuxplumbersconf.org/2011/ocw//system/presentations/69/original/SyncFinder-LPC.pptx">(slides)</a>
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-45'>
+          <a href="../events/LPC2011BOFS/tracks/45">Development Tools</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            03/30/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="123">Weiwei Xiong</a>
+          
+        </td>
+      </tr>
+      
+    </table>
+  
+
+
+    </div>
+  </div>
+
+
+      
+    </div>
+  
+
+
+  
+  </div>
+</div>
+
+
+        </div><!-- content -->
+      </div><!-- container -->
+
+        <div id="primary" class="sidebar">
+          <ul class="xoxo">
+            
+              <li id="login-as">
+                <h3>Welcome</h3>
+                <ul>
+                  <li><a href="../events/LPC2011/proposals/new">Login</a></li>
+                  
+                </ul>
+              </li>
+            
+
+            <li id="subscribe-to">
+              <h3>Subscribe to</h3>
+              <ul>
+                <li class="pre-bulletted"><a href="../proposals.atom" class="feedable">Proposals feed</a></li>
+                
+              </ul>
+            </li>
+
+            
+          </ul>
+	  			<div id="sponsor-links">
+				<h3>Sponsors</h3>
+				<br>
+				<h5>Platinum</h5>
+				<br><a href="http://intel.com"><img src="../../style/intel_logo.png" /></a>
+				<br>
+				<br><a href="http://ibm.com"><img src="../../style/IBMtm.png" /></a>
+				<br>
+				<br><a href="http://qualcomm.com"><img src="../../style/Qualcomm.png" /></a>
+				<br>&nbsp;
+				<h5>Gold</h5>
+				<br><a href="http://google.com"><img src="../../style/google_logo.gif" /></a>
+				<!--
+				<br>
+				<br><a href="http://www.ti.com"><img src="/2011/style/ti_logo.gif" /></a>
+		-->
+				<br>&nbsp;
+				<h5>Silver</h5>
+				<br><a href="http://hp.com"><img src="../../style/hp_logo.gif" /></a>
+		<!--
+				<br>&nbsp;
+				<br><a href="http://www.akamai.com"><img src="/2011/style/akamai_logo_pms.png" /></a>
+		-->
+				<br>&nbsp;
+				<br><a href="http://www.linaro.org"><img src="../../style/linaro-1.png" /></a>
+				<br>&nbsp;
+				<a href="http://www.collabora.co.uk"><img src="../../style/collabora-logo.png" /></a>
+				<br>&nbsp;
+				<br><a href="http://canonical.com"><img src="../../style/canonical.png" /></a>
+
+				<br>&nbsp;
+				<br><a href="http://otn.oracle.com/linux"><img src="../../style/oracle.png" /></a>
+				<h3>Internet Sponsors</h3>
+				<br><a href="http://www.sonic.net"><img src="../../style/sonic.png" /></a>
+				<!--
+				<h3>Media Sponsors</h3>
+				<ul class="sponsor-links">
+
+					<li><a href="http://lwn.net"><img src="/2011/style/lwnlogo.png" /></a></li>
+					<li><a href="http://linuxjournel.com"><img src="/2011/style/ljcolor.png" /></a></li>
+					<li><a href="http://www.linuxpromagazine.com/"><img src="/2011/style/LinuxPro-logo.png" /></a></li>
+				</ul>
+-->
+			</div>
+
+
+
+        </div><!-- #sidebar-1 -->
+
+    <div id="footer">
+    <a href="http://osuosl.org"><img border="0" src="http://linuxplumbersconf.org/2011/style/osl-hosted.png" alt="OSL"/></a>
+    </div>
+
+  </div><!--wrapper -->
+
+  
+
+  <!-- arbitrary javascript from views -->
+  <script type="text/javascript">
+//<![CDATA[
+window._token = '2c4443b355bc31bee23c787833cb0a270f09bb07'
+//]]>
+</script>
+  <script type="text/javascript">
+    
+  </script>
+
+  
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-168427-8");
+      pageTracker._initData();
+      pageTracker._trackPageview();
+    </script>
+
+    <script src="http://static.getclicky.com/79611.js" type="text/javascript"></script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="http://static.getclicky.com/79611-db10.gif" /></p></noscript>
+  
+</body>
+</html>

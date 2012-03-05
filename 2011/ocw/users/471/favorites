@@ -1,0 +1,893 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+  <title>Eric Munson's favorites / Linux Plumbers Conference: Developing the Kernel, Libraries and Utilities / September 7-9, 2011 / Santa Rosa, CA</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="description" content="Developing the Kernel, Libraries and Utilities / September 7-9, 2011 / Santa Rosa, CA" />
+
+  <!-- Feeds -->
+  <link href="../../proposals.atom" rel="alternate" title="Linux Plumbers Conference: Proposals feed" type="application/atom+xml" />
+  
+
+  <!-- Stylesheets -->
+  
+    <link href="http://linuxplumbersconf.org/2011/style/style.css" media="screen" rel="stylesheet" type="text/css" />
+  
+  <link href="../../themes/lpc/stylesheets/custom.css?1324622285" media="screen" rel="Stylesheet" type="text/css" />
+  
+
+  <!-- Dynamic styles -->
+  
+    
+  
+
+  <!-- Scripts -->
+  <script src="../../javascripts/jquery.min.js" type="text/javascript"></script>
+  <script src="../../javascripts/jquery-ui.effects.core.js" type="text/javascript"></script>
+  <script src="../../javascripts/jquery-ui.effects.highlight.js" type="text/javascript"></script>
+  <script src="../../javascripts/application.js" type="text/javascript"></script>
+  
+    
+    
+  <script type="text/javascript" charset="utf-8">
+    $(document).ready(function() {
+      app.favorites_path = '/2011/ocw/users/me/favorites';
+      app.current_user = false;
+      app.authenticity_token = '2c4443b355bc31bee23c787833cb0a270f09bb07';
+      populate_user_favorites();
+      bind_user_favorite_controls();
+    });
+  </script>
+</head>
+
+
+
+<body>
+  <div id="wrapper">
+     <div id="header">
+           <h1 id="site-title"><span><a href="http://linuxplumbersconf.org/2011/" title="Linux Plumbers Conf 2011" rel="home">Linux Plumbers Conf 2011</a></span></h1>
+           <div id="site-description">Developing the Kernel, Libraries and Utilities</div>
+      </div>
+
+      	<div id="access">
+		<div class="skip-link"><a href="favorites#content" title="Skip to content">'Skip to content</a></div>
+
+<div id="menu">
+	<ul>
+		<li class="page_item page-item"><a href="../../../../2011/">Blog</a></li>
+		<li class="page_item page-item"><a href="../../../participate/index.html" title="Participate">Participate</a></li>
+		<li class="page_item page-item"><a href="../../events/LPC2011/schedule" title="Schedule">Schedule</a></li>
+		<!--
+		<li class="page_item page-item"><a href="/2011/schedule" title="Schedule">Schedule</a></li>
+		-->
+		<li class="page_item page-item"><a href="../../../attend/index.html" title="Attend">Attend</a></li>
+		<li class="page_item page-item"><a href="../../../contact/index.html" title="Contact">Contact</a></li>
+		<li class="page_item page-item"><a href="../../../faqs" title="FAQs">FAQs</a></li>
+	</ul>
+</div>
+
+	</div><!-- #access -->
+
+
+      <div id="container">
+        <div id="content">
+          <h2 class='entry-title'>Proposals</h2>
+          
+
+          <h2 class='page_title'>Eric Munson's favorites</h2>
+
+          <!-- Display notices -->
+          
+          
+          
+          
+
+          <!-- Display view's content -->
+          
+
+<div class='calendar_download'>
+  <a href="http://www.linuxplumbersconf.org/2011/ocw/users/471/favorites.ics">Download favorites</a> /
+  <a href="webcal://www.linuxplumbersconf.org/2011/ocw/users/471/favorites.ics">Subscribe to favorites</a>
+</div>
+
+<div id='list_user_favorites'>
+
+
+  
+    <div id="sub_list_for_event_9" class="sub_list_for_event sub_list_for_many_events">
+      
+      
+        <h3>Linux Plumbers Conference 2011 Microconferences</h3>
+      
+      
+        
+
+
+  <div class="proposals_sub_list_for_kind proposals_sub_list_for_kind_proposals">
+    <div class="proposals_sub_list_for_kind_toggle" style="display: none">
+      <a href="favorites#">Display proposals...</a>
+    </div>
+    <div class="proposals_sub_list_for_kind_content">
+      <h4>Favorite proposals for this user</h4>
+      
+
+
+  
+
+  
+    <table class='proposals kind_proposals' cellspacing='0'>
+      
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_87'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../me/favorites" class="favorite favorite_87"><span>*</span></a>
+            
+              <a href="../../sessions/87" class="title">A Baker's Dozen of TCP bakeoff?</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Can TCP Congestion control help with fairness and latency (bufferbloat)?
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-93'>
+          <a href="../../events/LPC2011BOFS/tracks/93">Bufferbloat and Networking</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            04/04/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../171">Stephen Hemminger</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_501'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../me/favorites" class="favorite favorite_501"><span>*</span></a>
+            
+              <a href="../../proposals/501" class="title">Compressed data support in sound subsystem</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            The new streaming interface proposal provides a framework in sound subsystem to support offloaded decoders and encoders
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-87'>
+          <a href="../../events/LPC2011BOFS/tracks/87">Desktop</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            05/12/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../645">Vinod Koul</a>, <a href="../651">Pierre Bossart</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_117'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../me/favorites" class="favorite favorite_117"><span>*</span></a>
+            
+              <a href="../../sessions/117" class="title">Making Passthrough Audio on Linux Just Work</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            This is a talk about the various changes we made to PulseAudio and GStreamer to support passthrough output for compressed audio formats and how applications can make use of this.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-27'>
+          <a href="../../events/LPC2011BOFS/tracks/27">Audio</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            04/15/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../225">Arun Raghavan</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_255'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../me/favorites" class="favorite favorite_255"><span>*</span></a>
+            
+              <a href="../../sessions/255" class="title">Reducing your patch workload with Patchwork</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            An overview and update on the Patchwork patch-tracking system.
+	    <a href="../../system/presentations/255/original/patchwork.pdf">(slides)</a>
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-45'>
+          <a href="../../events/LPC2011BOFS/tracks/45">Development Tools</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            04/29/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../411">Jeremy Kerr</a>
+          
+        </td>
+      </tr>
+      
+    </table>
+  
+
+
+    </div>
+  </div>
+
+
+      
+    </div>
+  
+    <div id="sub_list_for_event_3" class="sub_list_for_event sub_list_for_many_events">
+      
+      
+        <h3>Linux Plumbers Conference 2011</h3>
+      
+      
+        
+
+
+  <div class="proposals_sub_list_for_kind proposals_sub_list_for_kind_proposals">
+    <div class="proposals_sub_list_for_kind_toggle" style="display: none">
+      <a href="favorites#">Display proposals...</a>
+    </div>
+    <div class="proposals_sub_list_for_kind_content">
+      <h4>Favorite proposals for this user</h4>
+      
+
+
+  
+
+  
+    <table class='proposals kind_proposals' cellspacing='0'>
+      
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_459'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../me/favorites" class="favorite favorite_459"><span>*</span></a>
+            
+              <a href="../../proposals/459" class="title">Bcache: A cache designed for SSDs</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Bcache is a writethrough and writeback cache designed for arbitrary workloads and reliable performance, and for optimal IO patterns with SSDs.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-3'>
+          <a href="../../events/LPC2011BOFS/tracks/3">Refereed Presentations</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            05/10/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../591">Kent Overstreet</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_339'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../me/favorites" class="favorite favorite_339"><span>*</span></a>
+            
+              <a href="../../proposals/339" class="title">dm-cache, a device mapper target based on SSD</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            In this session, we will talk about dm-cache, a device mapper target which uses SSD as a cache for some large and slow devices like SAS or SATA.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-3'>
+          <a href="../../events/LPC2011BOFS/tracks/3">Refereed Presentations</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            04/30/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../495">Tao Ma</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_309'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../me/favorites" class="favorite favorite_309"><span>*</span></a>
+            
+              <a href="../../sessions/309" class="title">Globally fair group CPU scheduling</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            A look at the fairness and wake-up latency improvements that can be achieved by extending vruntime beyond the per-cpu level.
+	    <a href="../../system/presentations/309/original/LPC_2011_Global_Lag.pdf">(slides)</a>
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-3'>
+          <a href="../../events/LPC2011BOFS/tracks/3">Refereed Presentations</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            04/30/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../309">Paul Turner</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_327'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../me/favorites" class="favorite favorite_327"><span>*</span></a>
+            
+              <a href="../../proposals/327" class="title">Libhugetlbfs in a THP world: libhuge in the present and future</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            How libhugetlbfs and THP can be used together to provide easy access to huge pages.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-3'>
+          <a href="../../events/LPC2011BOFS/tracks/3">Refereed Presentations</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            04/30/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../471">Eric Munson</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_153'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../me/favorites" class="favorite favorite_153"><span>*</span></a>
+            
+              <a href="../../sessions/153" class="title">lockdep: How to read its cryptic output</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Learn to read the output from lockdep when your code can trigger a deadlock
+	    <a href="../../system/presentations/153/original/lockdep-plumbers-2011.odp">(slides)</a>
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-3'>
+          <a href="../../events/LPC2011BOFS/tracks/3">Refereed Presentations</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            04/20/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../273">Steven Rostedt</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_333'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../me/favorites" class="favorite favorite_333"><span>*</span></a>
+            
+              <a href="../../proposals/333" class="title">LTTng: Integrated Tools for Software and Hardware Tracing</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            New tools to enable comprehensive analysis of software and hardware traces gathered from multi-core and heterogeneous systems.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-3'>
+          <a href="../../events/LPC2011BOFS/tracks/3">Refereed Presentations</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            04/30/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../489">Mathieu Desnoyers</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_525'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../me/favorites" class="favorite favorite_525"><span>*</span></a>
+            
+              <a href="../../sessions/525" class="title">OSWALD: Lessons from and for the Open Hardware Movement</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Envisioned as a cutting-edge computing platform that would encourage students to tinker with all the latest developments in the mobile space without fear of breaking their own gadgets, the initial version of the OSWALD project out of OSU failed in several key areas.
+	    <a href="../../system/presentations/525/original/oswald_lpc-2011.pdf">(slides)</a>
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-3'>
+          <a href="../../events/LPC2011BOFS/tracks/3">Refereed Presentations</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            05/15/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../543">Tim Harder</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_453'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../me/favorites" class="favorite favorite_453"><span>*</span></a>
+            
+              <a href="../../sessions/453" class="title">The Linux NFC subsystem</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Describing the new Linux Near Field Communication architecture, from kernel to userspace.
+	    <a href="../../system/presentations/453/original/Linux_NFC_Subsystem_LPC2011_v5.pdf">(slides)</a>
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-3'>
+          <a href="../../events/LPC2011BOFS/tracks/3">Refereed Presentations</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            05/09/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../39">Samuel Ortiz</a>, <a href="../1041">Lauro Venancio</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_99'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../me/favorites" class="favorite favorite_99"><span>*</span></a>
+            
+              <a href="../../sessions/99" class="title">ThunderboltTechnology – What is it and what are the Open Source implications</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            This presentation will cover the technical details of the Thunderbolt technology as well as the Open Source implications and SW items that will need to be addressed to support the new technology.
+	    <a href="../../system/presentations/99/original/Plumbers-Thunderbolt.odp">(slides)</a>
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-3'>
+          <a href="../../events/LPC2011BOFS/tracks/3">Refereed Presentations</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            04/08/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../189">John Ronciak</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_225'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../me/favorites" class="favorite favorite_225"><span>*</span></a>
+            
+              <a href="../../sessions/225" class="title">Where is the Linux kernel on scalability?</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Overview of kernel scalability on servers.
+	    <a href="../../system/presentations/225/original/plumbers-scalability_v3.pdf">(slides)</a>
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-3'>
+          <a href="../../events/LPC2011BOFS/tracks/3">Refereed Presentations</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            04/28/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../357">Andi Kleen</a>, <a href="../363">Tim Chen</a>
+          
+        </td>
+      </tr>
+      
+    </table>
+  
+
+
+    </div>
+  </div>
+
+
+      
+    </div>
+  
+
+
+</div>
+        </div><!-- content -->
+      </div><!-- container -->
+
+        <div id="primary" class="sidebar">
+          <ul class="xoxo">
+            
+              <li id="login-as">
+                <h3>Welcome</h3>
+                <ul>
+                  <li><a href="../../events/LPC2011/proposals/new">Login</a></li>
+                  
+                </ul>
+              </li>
+            
+
+            <li id="subscribe-to">
+              <h3>Subscribe to</h3>
+              <ul>
+                <li class="pre-bulletted"><a href="../../proposals.atom" class="feedable">Proposals feed</a></li>
+                
+              </ul>
+            </li>
+
+            
+          </ul>
+	  			<div id="sponsor-links">
+				<h3>Sponsors</h3>
+				<br>
+				<h5>Platinum</h5>
+				<br><a href="http://intel.com"><img src="../../../style/intel_logo.png" /></a>
+				<br>
+				<br><a href="http://ibm.com"><img src="../../../style/IBMtm.png" /></a>
+				<br>
+				<br><a href="http://qualcomm.com"><img src="../../../style/Qualcomm.png" /></a>
+				<br>&nbsp;
+				<h5>Gold</h5>
+				<br><a href="http://google.com"><img src="../../../style/google_logo.gif" /></a>
+				<!--
+				<br>
+				<br><a href="http://www.ti.com"><img src="/2011/style/ti_logo.gif" /></a>
+		-->
+				<br>&nbsp;
+				<h5>Silver</h5>
+				<br><a href="http://hp.com"><img src="../../../style/hp_logo.gif" /></a>
+		<!--
+				<br>&nbsp;
+				<br><a href="http://www.akamai.com"><img src="/2011/style/akamai_logo_pms.png" /></a>
+		-->
+				<br>&nbsp;
+				<br><a href="http://www.linaro.org"><img src="../../../style/linaro-1.png" /></a>
+				<br>&nbsp;
+				<a href="http://www.collabora.co.uk"><img src="../../../style/collabora-logo.png" /></a>
+				<br>&nbsp;
+				<br><a href="http://canonical.com"><img src="../../../style/canonical.png" /></a>
+
+				<br>&nbsp;
+				<br><a href="http://otn.oracle.com/linux"><img src="../../../style/oracle.png" /></a>
+				<h3>Internet Sponsors</h3>
+				<br><a href="http://www.sonic.net"><img src="../../../style/sonic.png" /></a>
+				<!--
+				<h3>Media Sponsors</h3>
+				<ul class="sponsor-links">
+
+					<li><a href="http://lwn.net"><img src="/2011/style/lwnlogo.png" /></a></li>
+					<li><a href="http://linuxjournel.com"><img src="/2011/style/ljcolor.png" /></a></li>
+					<li><a href="http://www.linuxpromagazine.com/"><img src="/2011/style/LinuxPro-logo.png" /></a></li>
+				</ul>
+-->
+			</div>
+
+
+
+        </div><!-- #sidebar-1 -->
+
+    <div id="footer">
+    <a href="http://osuosl.org"><img border="0" src="http://linuxplumbersconf.org/2011/style/osl-hosted.png" alt="OSL"/></a>
+    </div>
+
+  </div><!--wrapper -->
+
+  
+
+  <!-- arbitrary javascript from views -->
+  <script type="text/javascript">
+//<![CDATA[
+window._token = '2c4443b355bc31bee23c787833cb0a270f09bb07'
+//]]>
+</script>
+  <script type="text/javascript">
+    
+  </script>
+
+  
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-168427-8");
+      pageTracker._initData();
+      pageTracker._trackPageview();
+    </script>
+
+    <script src="http://static.getclicky.com/79611.js" type="text/javascript"></script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="http://static.getclicky.com/79611-db10.gif" /></p></noscript>
+  
+</body>
+</html>

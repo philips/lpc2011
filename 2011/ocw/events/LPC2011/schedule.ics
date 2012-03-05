@@ -1,0 +1,675 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ensemble Independent//vPim 0.695//EN
+CALSCALE:Gregorian
+METHOD:PUBLISH
+X-WR-CALNAME:Linux Plumbers Conference 2011
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+DTSTART:20110906T190000
+DTEND:20110906T220000
+SUMMARY:Evening Get Together sponsored by Collabora
+CREATED:20110620T133730
+LAST-MODIFIED:20110808T162345
+DESCRIPTION:Evening Get Together at the Hyatt
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/3
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/3
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110907T090000
+DTEND:20110907T094500
+SUMMARY:Some challenges for the plumbing community
+CREATED:20110620T162550
+LAST-MODIFIED:20110909T170457
+DESCRIPTION:Some challenges for the plumbing community
+LOCATION:Alexander Valley Ball Room
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/711
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/711
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110907T094500
+DTEND:20110907T100000
+SUMMARY:Break
+CREATED:20110620T134117
+LAST-MODIFIED:20110829T184627
+DESCRIPTION:Break
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/9
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110907T100000
+DTEND:20110907T105000
+SUMMARY:BITS: Testing BIOS/platform issues with Python in a bootloader
+CREATED:20110826T164422
+LAST-MODIFIED:20110908T223455
+DESCRIPTION:The kernel often has to cope with misconfiguration and bugs in 
+ BIOS and ACPI\, working around them when possible and reporting them otherw
+ ise. These bugs rarely managed to get fixed upstream\, and nothing prevents
+  them from recurring on new systems with new BIOSes.  Help us change that\,
+  and hear about BITS\, our system for testing BIOS using Python and ACPICA 
+ embedded in GRUB.\n
+LOCATION:Alexander Valley Ball Room
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/867
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/867
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110907T100000
+DTEND:20110907T123000
+SUMMARY:Bufferbloat and Networking
+CREATED:20110309T180330
+LAST-MODIFIED:20110620T145541
+DESCRIPTION:Identifying and eliminating the effects of bufferbloat
+LOCATION:Russian River
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/93
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/93
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110907T100000
+DTEND:20110907T123000
+SUMMARY:Mobile
+CREATED:20110309T175629
+LAST-MODIFIED:20110620T160915
+DESCRIPTION:Discussion of issues related to Mobile computing
+LOCATION:Dry Creek Valley
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/39
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/39
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110907T105000
+DTEND:20110907T114000
+SUMMARY:x32 - a native 32-bit ABI for x86-64
+CREATED:20110515T034023
+LAST-MODIFIED:20110910T195154
+DESCRIPTION:A work-in-progress new ABI for x86 combines the memory footprin
+ t of a 32-bit process with the enhanced capabilities of the x86-64 ISA.
+LOCATION:Alexander Valley Ball Room
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/531
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/531
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110907T114000
+DTEND:20110907T123000
+SUMMARY:Virtual Machine Memory Overcommitment
+CREATED:20110430T124331
+LAST-MODIFIED:20110909T142453
+DESCRIPTION:Memory Overcommit has an increasing number of players and compl
+ exity across the entire software stack.  This talk will take a look at how 
+ they interact.
+LOCATION:Alexander Valley Ball Room
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/351
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/351
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110907T123000
+DTEND:20110907T140000
+SUMMARY:Lunch
+CREATED:20110620T161033
+LAST-MODIFIED:20110719T154403
+DESCRIPTION:Lunch (on your own)
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/15
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/15
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110907T140000
+DTEND:20110907T145000
+SUMMARY:Control is the New Community: What Linux can Learn from Android
+CREATED:20110906T105348
+LAST-MODIFIED:20110909T163046
+DESCRIPTION:Lessons that can be drawn from our android upstream experience
+LOCATION:Alexander Valley Ball Room
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/897
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/897
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110907T140000
+DTEND:20110907T163000
+SUMMARY:Development Tools
+CREATED:20110309T175713
+LAST-MODIFIED:20110719T150425
+DESCRIPTION:Development Tools
+LOCATION:Dry Creek Valley
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/45
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/45
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110907T140000
+DTEND:20110907T163000
+SUMMARY:Cloud
+CREATED:20110309T180130
+LAST-MODIFIED:20110719T150354
+DESCRIPTION:Discussion of Plumbing topics related to Cloud Computing (priva
+ te and public)
+LOCATION:Russian River
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/75
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/75
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110907T145000
+DTEND:20110907T154000
+SUMMARY:Runtime PM vs System Sleep
+CREATED:20110318T221237
+LAST-MODIFIED:20110817T172425
+DESCRIPTION:There are fundamental differences between runtime PM and system
+  suspend such that system sleep cannot be regarded as "deep idle".
+LOCATION:Alexander Valley Ball Room
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/27
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/27
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110907T154000
+DTEND:20110907T163000
+SUMMARY:Linux OS Infrastructure for Memory Power Management
+CREATED:20110503T023440
+LAST-MODIFIED:20110909T175649
+DESCRIPTION:Discuss details of a Linux OS infrastructure to exploit memory 
+ power management capabilities in the hardware
+LOCATION:Alexander Valley Ball Room
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/417
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/417
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110907T170000
+DTEND:20110907T220000
+SUMMARY:Opening Reception sponsored by Intel
+CREATED:20110620T161629
+LAST-MODIFIED:20110808T162400
+DESCRIPTION:Dinner at "Chalk Hill":http://www.chalkhill.com/.  First carava
+ n leaves at 5pm.
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/27
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/27
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110908T090000
+DTEND:20110908T094500
+SUMMARY:Relativistic Development
+CREATED:20110620T163024
+LAST-MODIFIED:20110909T133025
+DESCRIPTION:Exploring FLOSS development models\, good\, bad\, and ugly.
+LOCATION:Alexander Valley Ball Room
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/717
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/717
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110908T094500
+DTEND:20110908T100000
+SUMMARY:Break
+CREATED:20110620T163251
+LAST-MODIFIED:20110829T184641
+DESCRIPTION:Break
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/33
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/33
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110908T100000
+DTEND:20110908T105000
+SUMMARY:Extending (Disk) Data Integrity Support in Linux
+CREATED:20110430T154525
+LAST-MODIFIED:20110909T181554
+DESCRIPTION:This talk summarizes where T10 DIF support sits today in Linux\
+ , and moves on to exposing the integrity API to userspace and how we might 
+ accomplish this through the filesystems.
+LOCATION:Alexander Valley Ball Room
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/381
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/381
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110908T100000
+DTEND:20110908T123000
+SUMMARY:Virtualization
+CREATED:20110309T175844
+LAST-MODIFIED:20110620T163632
+DESCRIPTION:Discussion of plumbing topics related to virtualization
+LOCATION:Russian River
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/57
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/57
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110908T100000
+DTEND:20110908T123000
+SUMMARY:Unified Memory Management
+CREATED:20110601T175858
+LAST-MODIFIED:20110706T183530
+DESCRIPTION:A check-point of the Linaro-driven approach to addressing the m
+ emory management issues encountered by the ARM ecosystem.
+LOCATION:Dry Creek Valley
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/117
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/117
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110908T105000
+DTEND:20110908T114000
+SUMMARY:OSWALD: Lessons from and for the Open Hardware Movement
+CREATED:20110514T210129
+LAST-MODIFIED:20110909T142345
+DESCRIPTION:Envisioned as a cutting-edge computing platform that would enco
+ urage students to tinker with all the latest developments in the mobile spa
+ ce without fear of breaking their own gadgets\, the initial version of the 
+ OSWALD project out of OSU failed in several key areas.
+LOCATION:Alexander Valley Ball Room
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/525
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/525
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110908T114000
+DTEND:20110908T123000
+SUMMARY:D-Bus Performance: Observations and Solutions
+CREATED:20110429T215422
+LAST-MODIFIED:20110620T163550
+DESCRIPTION:Results of performance analysis of D-Bus\, with suggestions for
+  improvement.
+LOCATION:Alexander Valley Ball Room
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/321
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/321
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110908T123000
+DTEND:20110908T140000
+SUMMARY:Lunch
+CREATED:20110620T163831
+LAST-MODIFIED:20110719T154519
+DESCRIPTION:Lunch (on your own)
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/39
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/39
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110908T140000
+DTEND:20110908T145000
+SUMMARY:Linux Power Management Experiences on Moorestown
+CREATED:20110318T150322
+LAST-MODIFIED:20110914T153752
+DESCRIPTION:How Linux handles the power management challenges of the Moores
+ town platform.
+LOCATION:Alexander Valley Ball Room
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/9
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110908T140000
+DTEND:20110908T163000
+SUMMARY:Desktop
+CREATED:20110309T180254
+LAST-MODIFIED:20110912T113838
+DESCRIPTION:Desktop related topics
+LOCATION:Dry Creek Valley
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/87
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/87
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110908T140000
+DTEND:20110908T163000
+SUMMARY:Containers and Cgroups
+CREATED:20110601T175453
+LAST-MODIFIED:20110913T233031
+DESCRIPTION:Discussion of Containers/Cgroups issues
+LOCATION:Russian River
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/105
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/105
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110908T145000
+DTEND:20110908T154000
+SUMMARY:Virtualization: Writing (and testing) device drivers without hardwa
+ re
+CREATED:20110428T152111
+LAST-MODIFIED:20110909T134451
+DESCRIPTION:How to use QEMU to develop future hardware models to develop an
+ d test device drivers before hardware is available.
+LOCATION:Alexander Valley Ball Room
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/243
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/243
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110908T154000
+DTEND:20110908T163000
+SUMMARY:Where is the Linux kernel on scalability?
+CREATED:20110428T121144
+LAST-MODIFIED:20110909T124906
+DESCRIPTION:Overview of kernel scalability on servers.
+LOCATION:Alexander Valley Ball Room
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/225
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/225
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110908T163000
+DTEND:20110908T164500
+SUMMARY:Break
+CREATED:20110620T164146
+LAST-MODIFIED:20110829T234109
+DESCRIPTION:Break
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/45
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/45
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110908T164500
+DTEND:20110908T181500
+SUMMARY:Scaling
+CREATED:20110309T180051
+LAST-MODIFIED:20110829T234325
+DESCRIPTION:Discussion of issues related to scaling in Linux (up or down)
+LOCATION:Russian River
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/69
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/69
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110908T164500
+DTEND:20110908T181500
+SUMMARY:Power Management
+CREATED:20110309T180208
+LAST-MODIFIED:20110829T234249
+DESCRIPTION:Discussions about all topics related to power management.
+LOCATION:Dry Creek Valley
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/81
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/81
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110908T183000
+DTEND:20110908T193000
+SUMMARY:Emerging trends in Licensing standards - BOF
+CREATED:20110526T171907
+LAST-MODIFIED:20110830T002133
+DESCRIPTION:BOF for those who want to talk about licensing standards\, and 
+ automated license detection and reporting.
+LOCATION:Dry Creek Valley
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/621
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/621
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110908T183000
+DTEND:20110908T193000
+SUMMARY:Backporting the Linux kernel\, for good
+CREATED:20110727T174952
+LAST-MODIFIED:20110908T211811
+DESCRIPTION:Unifying Linux kernel backport efforts
+LOCATION:Chalk Hill
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/771
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/771
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110908T183000
+DTEND:20110908T193000
+SUMMARY:Optimizing Firefox: Why Large Applications Start Slowly on Linux
+CREATED:20110822T193420
+LAST-MODIFIED:20110830T001434
+DESCRIPTION:Linker\, compiler\, runtime linker and the kernel can be improv
+ ed to start applications significantly faster
+LOCATION:Alexander Valley Ball Room
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/807
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/807
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110908T183000
+DTEND:20110908T193000
+SUMMARY:Memory cgroups: Who's using it out there?
+CREATED:20110430T124711
+LAST-MODIFIED:20110830T003124
+DESCRIPTION:Discussion of the current or future uses of memory control grou
+ ps in the real world.
+LOCATION:Sonoma Mountain
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/357
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/357
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110908T183000
+DTEND:20110908T193000
+SUMMARY:Enhance video experience by Multi-plane-bof
+CREATED:20110601T194119
+LAST-MODIFIED:20110830T002015
+DESCRIPTION:This presentation will introduce multi-plane HW solution and pr
+ ovide one software solution to make good use of multi-plane and enable tran
+ slucency.
+LOCATION:Russian River
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/645
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/645
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110908T190000
+DTEND:20110908T220000
+SUMMARY:Free Evening
+CREATED:20110620T164246
+LAST-MODIFIED:20110620T164246
+DESCRIPTION:Free Evening
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/51
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/51
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110908T200000
+DTEND:20110908T210000
+SUMMARY:Kconfig Fragments
+CREATED:20110429T215217
+LAST-MODIFIED:20110830T002409
+DESCRIPTION:BoF to discuss ideas for using Kconfig fragments to replace def
+ configs\, as well as using them to reduce the amount of distro-specific con
+ fig management infrastructure that is out there.
+LOCATION:Dry Creek Valley
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/315
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/315
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110908T200000
+DTEND:20110908T210000
+SUMMARY:Testing and fixing BIOS/platform issues
+CREATED:20110819T145820
+LAST-MODIFIED:20110830T001708
+DESCRIPTION:The kernel often has to cope with misconfiguration and bugs in 
+ BIOS and ACPI\, working around them when possible and reporting them otherw
+ ise. These bugs rarely managed to get fixed upstream\, and nothing prevents
+  them from recurring on new systems with new BIOSes. We'd like to change th
+ at.
+LOCATION:Alexander Valley Ball Room
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/795
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/795
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110908T200000
+DTEND:20110908T210000
+SUMMARY:ARM collaboration summit
+CREATED:20110809T013706
+LAST-MODIFIED:20110830T001917
+DESCRIPTION:Meetup for ARM Linux distributions interested in working togeth
+ er
+LOCATION:Russian River
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/783
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/783
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110908T200000
+DTEND:20110908T210000
+SUMMARY:What applications need to know about Btrfs.
+CREATED:20110524T103454
+LAST-MODIFIED:20110830T003547
+DESCRIPTION:A look at the new things Btrfs can do and how applications can 
+ take advantage of them.
+LOCATION:Chalk Hill
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/603
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/603
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110908T200000
+DTEND:20110908T210000
+SUMMARY:Libhugetlbfs and transparent huge pages
+CREATED:20110613T135611
+LAST-MODIFIED:20110830T003332
+DESCRIPTION:How libhugetlbfs and THP can be used together to provide easy a
+ ccess to huge pages.
+LOCATION:Sonoma Mountain
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/699
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/699
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110909T090000
+DTEND:20110909T094500
+SUMMARY:Can Linux Cope with Diversity?
+CREATED:20110901T194013
+LAST-MODIFIED:20110909T142143
+DESCRIPTION:An exploration of whether hardware diversity and the need to sh
+ ip product in the ARM ecosystem conflicts with working upstream the whole t
+ ime
+LOCATION:Alexander Valley Ball Room
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/891
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/891
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110909T094500
+DTEND:20110909T095900
+SUMMARY:Break
+CREATED:20110620T164607
+LAST-MODIFIED:20110901T235139
+DESCRIPTION:Break
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/57
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/57
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110909T100000
+DTEND:20110909T105000
+SUMMARY:The Linux NFC subsystem
+CREATED:20110509T052851
+LAST-MODIFIED:20110909T135017
+DESCRIPTION:Describing the new Linux Near Field Communication architecture\
+ , from kernel to userspace.
+LOCATION:Alexander Valley Ball Room
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/453
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/453
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110909T100000
+DTEND:20110909T123000
+SUMMARY:Early Boot and Init Systems
+CREATED:20110309T175257
+LAST-MODIFIED:20110830T000046
+DESCRIPTION:This miniconf is focused on the linux init system\, improving b
+ oot speed\, and init infrastructure including systemd\, udev\, dracut among
+  others.
+LOCATION:Russian River
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/21
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/21
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110909T100000
+DTEND:20110909T123000
+SUMMARY:Tracing
+CREATED:20110601T175623
+LAST-MODIFIED:20110830T230701
+DESCRIPTION:Tracing
+LOCATION:Dry Creek Valley
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/111
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/111
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110909T105000
+DTEND:20110909T114000
+SUMMARY:PowerNap Dynamic Power Management
+CREATED:20110412T114118
+LAST-MODIFIED:20110913T140144
+DESCRIPTION:Like a screen saver for Servers\, PowerNap lowers the power sta
+ te of underutilized systems
+LOCATION:Alexander Valley Ball Room
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/105
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/105
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110909T114000
+DTEND:20110909T123000
+SUMMARY:ThunderboltTechnology – What is it and what are the Open Source imp
+ lications
+CREATED:20110408T123846
+LAST-MODIFIED:20110909T135842
+DESCRIPTION:This presentation will cover the technical details of the Thund
+ erbolt technology as well as the Open Source implications and SW items that
+  will need to be addressed to support the new technology.
+LOCATION:Alexander Valley Ball Room
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/99
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/99
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110909T123000
+DTEND:20110909T133000
+SUMMARY:Lunch in the Hyatt Garden
+CREATED:20110620T165031
+LAST-MODIFIED:20110907T140446
+DESCRIPTION:Lunch at the Hyatt out on the lawn in front of Dry Creek Valley
+ .
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/63
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/63
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110909T133000
+DTEND:20110909T142000
+SUMMARY:IRQ naming and routing
+CREATED:20110405T132739
+LAST-MODIFIED:20110909T144943
+DESCRIPTION:Most modern network and storage controllers have multiple inter
+ rupts but Linux kernel has inconsistent management
+LOCATION:Alexander Valley Ball Room
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/93
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/93
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110909T133000
+DTEND:20110909T160000
+SUMMARY:File and Storage Systems
+CREATED:20110309T175549
+LAST-MODIFIED:20110830T000234
+DESCRIPTION:he track will deal with issues around file and storage systems 
+ in Linux\, from the kernel space up to user space. \n\n
+LOCATION:Russian River
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/33
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/33
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110909T133000
+DTEND:20110909T160000
+SUMMARY:Audio
+CREATED:20110309T175453
+LAST-MODIFIED:20110830T000249
+DESCRIPTION:Discussion of audio integration issues in both kernel and users
+ pace\, covering both desktop and embedded systems.
+LOCATION:Dry Creek Valley
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/27
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/27
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110909T142000
+DTEND:20110909T151000
+SUMMARY:lockdep: How to read its cryptic output
+CREATED:20110420T131532
+LAST-MODIFIED:20110909T180712
+DESCRIPTION:Learn to read the output from lockdep when your code can trigge
+ r a deadlock
+LOCATION:Alexander Valley Ball Room
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/153
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/153
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110909T151000
+DTEND:20110909T160000
+SUMMARY:Globally fair group CPU scheduling
+CREATED:20110429T210831
+LAST-MODIFIED:20110912T145013
+DESCRIPTION:A look at the fairness and wake-up latency improvements that ca
+ n be achieved by extending vruntime beyond the per-cpu level.
+LOCATION:Alexander Valley Ball Room
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/309
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/309
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110909T160000
+DTEND:20110909T161500
+SUMMARY:Break
+CREATED:20110620T165406
+LAST-MODIFIED:20110830T000506
+DESCRIPTION:Break
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/69
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/69
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110909T190000
+DTEND:20110909T220000
+SUMMARY:Closing Party at Franco's Ristorante
+CREATED:20110620T165505
+LAST-MODIFIED:20110831T132432
+DESCRIPTION:Open dinner menu & bar at Franco's.  Address and directions at 
+ http://francosristorante.com/.
+URL:http://www.linuxplumbersconf.net/2011/ocw/sessions/75
+UID:http://www.linuxplumbersconf.net/2011/ocw/sessions/75
+END:VEVENT
+END:VCALENDAR

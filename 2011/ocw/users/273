@@ -1,0 +1,392 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+  <title>Steven Rostedt / Linux Plumbers Conference: Developing the Kernel, Libraries and Utilities / September 7-9, 2011 / Santa Rosa, CA</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="description" content="Developing the Kernel, Libraries and Utilities / September 7-9, 2011 / Santa Rosa, CA" />
+
+  <!-- Feeds -->
+  <link href="../proposals.atom" rel="alternate" title="Linux Plumbers Conference: Proposals feed" type="application/atom+xml" />
+  
+
+  <!-- Stylesheets -->
+  
+    <link href="http://linuxplumbersconf.org/2011/style/style.css" media="screen" rel="stylesheet" type="text/css" />
+  
+  <link href="../themes/lpc/stylesheets/custom.css?1324622285" media="screen" rel="Stylesheet" type="text/css" />
+  
+
+  <!-- Dynamic styles -->
+  
+    
+  
+
+  <!-- Scripts -->
+  <script src="../javascripts/jquery.min.js" type="text/javascript"></script>
+  <script src="../javascripts/jquery-ui.effects.core.js" type="text/javascript"></script>
+  <script src="../javascripts/jquery-ui.effects.highlight.js" type="text/javascript"></script>
+  <script src="../javascripts/application.js" type="text/javascript"></script>
+  
+    
+    
+  <script type="text/javascript" charset="utf-8">
+    $(document).ready(function() {
+      app.current_user = false;
+      app.authenticity_token = '2c4443b355bc31bee23c787833cb0a270f09bb07';
+    });
+  </script>
+</head>
+
+
+
+<body>
+  <div id="wrapper">
+     <div id="header">
+           <h1 id="site-title"><span><a href="http://linuxplumbersconf.org/2011/" title="Linux Plumbers Conf 2011" rel="home">Linux Plumbers Conf 2011</a></span></h1>
+           <div id="site-description">Developing the Kernel, Libraries and Utilities</div>
+      </div>
+
+      	<div id="access">
+		<div class="skip-link"><a href="273#content" title="Skip to content">'Skip to content</a></div>
+
+<div id="menu">
+	<ul>
+		<li class="page_item page-item"><a href="../../../2011/">Blog</a></li>
+		<li class="page_item page-item"><a href="../../participate/index.html" title="Participate">Participate</a></li>
+		<li class="page_item page-item"><a href="../events/LPC2011/schedule" title="Schedule">Schedule</a></li>
+		<!--
+		<li class="page_item page-item"><a href="/2011/schedule" title="Schedule">Schedule</a></li>
+		-->
+		<li class="page_item page-item"><a href="../../attend/index.html" title="Attend">Attend</a></li>
+		<li class="page_item page-item"><a href="../../contact/index.html" title="Contact">Contact</a></li>
+		<li class="page_item page-item"><a href="../../faqs" title="FAQs">FAQs</a></li>
+	</ul>
+</div>
+
+	</div><!-- #access -->
+
+
+      <div id="container">
+        <div id="content">
+          <h2 class='entry-title'>Proposals</h2>
+          
+
+          <h2 class='page_title'>Steven Rostedt</h2>
+
+          <!-- Display notices -->
+          
+          
+          
+          
+
+          <!-- Display view's content -->
+          
+
+
+  
+
+<div class="user_box vcard ">
+  
+  <div class='user_head'>
+    <h3><a href="273" class="fn n" id="id_273" name="id_273">Steven Rostedt</a></h3>
+        <span class='affiliation org'>Red Hat</span>
+      </div>
+  <div class='user_body'>
+    <div class='user_links'>
+      <ul>
+                
+          <li>Website: <a href="http://rostedt.homelinux.com/" onclick="window.open(this.href);return false;" rel="nofollow">http://rostedt.homelinux.com/</a></li>
+        
+        
+        
+        
+        
+              </ul>
+    </div>
+
+  
+    <h4>Biography</h4>
+    <div class='note'>
+      <p>Steven Rostedt has been coding the Linux kernel since 1998. He started while working on his Master&#8217;s in CS. In 2001 he joined TimeSys and started his professional career in Linux kernel hacking. Currently Steven works with Red Hat supporting their Real Time kernel, but spends a lot of his time doing mainline work with tracing, the scheduler and pretty much anything else he wants to tinker with in the kernel.</p>
+    </div>
+  
+  
+  
+  
+  
+    
+
+  
+    <div id="sub_list_for_event_9" class="sub_list_for_event sub_list_for_many_events">
+      
+      
+        <h3>Linux Plumbers Conference 2011 Microconferences</h3>
+      
+      
+        
+
+
+  <div class="proposals_sub_list_for_kind proposals_sub_list_for_kind_proposals">
+    <div class="proposals_sub_list_for_kind_toggle" style="display: none">
+      <a href="273#">Display proposals...</a>
+    </div>
+    <div class="proposals_sub_list_for_kind_content">
+      <h4>Proposals for this user</h4>
+      
+
+
+  
+
+  
+    <table class='proposals kind_proposals' cellspacing='0'>
+      
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_609'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="me/favorites" class="favorite favorite_609"><span>*</span></a>
+            
+              <a href="../sessions/609" class="title">trace - the new hope?</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Can the &quot;trace&quot; utility merge perf and ftrace.
+	    <a href="http://linuxplumbersconf.org/2011/ocw//system/presentations/609/original/trace-new-hope-lpc-2011.odp">(slides)</a>
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-111'>
+          <a href="../events/LPC2011BOFS/tracks/111">Tracing</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            05/24/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="273">Steven Rostedt</a>
+          
+        </td>
+      </tr>
+      
+    </table>
+  
+
+
+    </div>
+  </div>
+
+
+      
+    </div>
+  
+    <div id="sub_list_for_event_3" class="sub_list_for_event sub_list_for_many_events">
+      
+      
+        <h3>Linux Plumbers Conference 2011</h3>
+      
+      
+        
+
+
+  <div class="proposals_sub_list_for_kind proposals_sub_list_for_kind_proposals">
+    <div class="proposals_sub_list_for_kind_toggle" style="display: none">
+      <a href="273#">Display proposals...</a>
+    </div>
+    <div class="proposals_sub_list_for_kind_content">
+      <h4>Proposals for this user</h4>
+      
+
+
+  
+
+  
+    <table class='proposals kind_proposals' cellspacing='0'>
+      
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_153'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="me/favorites" class="favorite favorite_153"><span>*</span></a>
+            
+              <a href="../sessions/153" class="title">lockdep: How to read its cryptic output</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Learn to read the output from lockdep when your code can trigger a deadlock
+	    <a href="http://linuxplumbersconf.org/2011/ocw//system/presentations/153/original/lockdep-plumbers-2011.odp">(slides)</a>
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-3'>
+          <a href="../events/LPC2011BOFS/tracks/3">Refereed Presentations</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            04/20/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="273">Steven Rostedt</a>
+          
+        </td>
+      </tr>
+      
+    </table>
+  
+
+
+    </div>
+  </div>
+
+
+      
+    </div>
+  
+
+
+  
+  </div>
+</div>
+
+
+        </div><!-- content -->
+      </div><!-- container -->
+
+        <div id="primary" class="sidebar">
+          <ul class="xoxo">
+            
+              <li id="login-as">
+                <h3>Welcome</h3>
+                <ul>
+                  <li><a href="../events/LPC2011/proposals/new">Login</a></li>
+                  
+                </ul>
+              </li>
+            
+
+            <li id="subscribe-to">
+              <h3>Subscribe to</h3>
+              <ul>
+                <li class="pre-bulletted"><a href="../proposals.atom" class="feedable">Proposals feed</a></li>
+                
+              </ul>
+            </li>
+
+            
+          </ul>
+	  			<div id="sponsor-links">
+				<h3>Sponsors</h3>
+				<br>
+				<h5>Platinum</h5>
+				<br><a href="http://intel.com"><img src="../../style/intel_logo.png" /></a>
+				<br>
+				<br><a href="http://ibm.com"><img src="../../style/IBMtm.png" /></a>
+				<br>
+				<br><a href="http://qualcomm.com"><img src="../../style/Qualcomm.png" /></a>
+				<br>&nbsp;
+				<h5>Gold</h5>
+				<br><a href="http://google.com"><img src="../../style/google_logo.gif" /></a>
+				<!--
+				<br>
+				<br><a href="http://www.ti.com"><img src="/2011/style/ti_logo.gif" /></a>
+		-->
+				<br>&nbsp;
+				<h5>Silver</h5>
+				<br><a href="http://hp.com"><img src="../../style/hp_logo.gif" /></a>
+		<!--
+				<br>&nbsp;
+				<br><a href="http://www.akamai.com"><img src="/2011/style/akamai_logo_pms.png" /></a>
+		-->
+				<br>&nbsp;
+				<br><a href="http://www.linaro.org"><img src="../../style/linaro-1.png" /></a>
+				<br>&nbsp;
+				<a href="http://www.collabora.co.uk"><img src="../../style/collabora-logo.png" /></a>
+				<br>&nbsp;
+				<br><a href="http://canonical.com"><img src="../../style/canonical.png" /></a>
+
+				<br>&nbsp;
+				<br><a href="http://otn.oracle.com/linux"><img src="../../style/oracle.png" /></a>
+				<h3>Internet Sponsors</h3>
+				<br><a href="http://www.sonic.net"><img src="../../style/sonic.png" /></a>
+				<!--
+				<h3>Media Sponsors</h3>
+				<ul class="sponsor-links">
+
+					<li><a href="http://lwn.net"><img src="/2011/style/lwnlogo.png" /></a></li>
+					<li><a href="http://linuxjournel.com"><img src="/2011/style/ljcolor.png" /></a></li>
+					<li><a href="http://www.linuxpromagazine.com/"><img src="/2011/style/LinuxPro-logo.png" /></a></li>
+				</ul>
+-->
+			</div>
+
+
+
+        </div><!-- #sidebar-1 -->
+
+    <div id="footer">
+    <a href="http://osuosl.org"><img border="0" src="http://linuxplumbersconf.org/2011/style/osl-hosted.png" alt="OSL"/></a>
+    </div>
+
+  </div><!--wrapper -->
+
+  
+
+  <!-- arbitrary javascript from views -->
+  <script type="text/javascript">
+//<![CDATA[
+window._token = '2c4443b355bc31bee23c787833cb0a270f09bb07'
+//]]>
+</script>
+  <script type="text/javascript">
+    
+  </script>
+
+  
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-168427-8");
+      pageTracker._initData();
+      pageTracker._trackPageview();
+    </script>
+
+    <script src="http://static.getclicky.com/79611.js" type="text/javascript"></script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="http://static.getclicky.com/79611-db10.gif" /></p></noscript>
+  
+</body>
+</html>

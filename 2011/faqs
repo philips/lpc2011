@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+	<title>FAQs &#8211; Linux Plumbers Conference</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="wp-content/themes/lpcwp/style.css" />
+<link rel="alternate" type="application/rss+xml" title="Linux Plumbers Conference &raquo; FAQs Comments Feed" href="http://www.linuxplumbersconf.org/2011/faqs/feed" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Linux Plumbers Conference' href='../2011/' />
+<link rel='prev' title='Contact' href='contact/index.html' />
+<link rel='next' title='Registration, Travel and Social Events' href='attend/index.html' />
+<meta name="generator" content="WordPress 3.1.1" />
+<link rel='canonical' href='faqs' />
+<script type="text/javascript"><!--
+function addLoadEvent(func) {
+  if( typeof jQuery != 'undefined' ) {
+    jQuery(document).ready( func );
+  } else if( typeof Prototype != 'undefined' ) {
+    Event.observe( window, 'load', func );
+  } else {
+    var oldonload = window.onload;
+    if (typeof window.onload != 'function') {
+      window.onload = func;
+    } else {
+      window.onload = function() {
+        if (oldonload)
+          oldonload();
+        
+        func();
+      }
+    }
+  }
+}
+function wphc(){
+	var wphc_data = [1874361224,1656317850,1688631758,1672827277,2023980675,2013210251,2040687516,1039556764,955138010,954547423,1038499013,887175896,1040004829,887111643,887307478,903882201,1072578007,1021322712,1021525719,904084933,669071836,954349277,1040006367,1071660246,989674207,1038499798,987971525,669400542,971193560,1071719895,669072859,954284511,904799707,954541526,1040005851,989674206,669924293,669066712,749417946,1874755225,1639542193,1772256158,753739718]; 
+
+	for (var i=0; i<wphc_data.length; i++){
+		wphc_data[i]=wphc_data[i]^215355118;
+	}
+
+	var a = new Array(wphc_data.length); 
+	for (var i=0; i<wphc_data.length; i++) { 
+		a[i] = String.fromCharCode(wphc_data[i] & 0xFF, wphc_data[i]>>>8 & 0xFF, wphc_data[i]>>>16 & 0xFF, wphc_data[i]>>>24 & 0xFF);
+	}
+
+	return eval(a.join('')); 
+}
+addLoadEvent(function(){var el=document.getElementById('wphc_value');if(el)el.value=wphc();});
+//--></script>
+	<link rel="alternate" type="application/rss+xml" href="http://www.linuxplumbersconf.org/2011/feed" title="Linux Plumbers Conference latest posts" />
+	<link rel="alternate" type="application/rss+xml" href="http://www.linuxplumbersconf.org/2011/comments/feed" title="Linux Plumbers Conference latest comments" />
+	<link rel="pingback" href="xmlrpc.php" />
+</head>
+
+<body class="wordpress y2012 m03 d05 h01 page pageid-97 page-author-jejb page-template page-template-default">
+
+<div id="wrapper" class="hfeed">
+
+	<div id="header">
+		<h1 id="site-title"><span><a href="../2011/" title="Linux Plumbers Conference" rel="home">Linux Plumbers Conference</a></span></h1>
+		<div id="site-description">Making the Linux Ecosystem work</div>
+	</div><!--  #header -->
+
+		<div id="access">
+		<div class="skip-link"><a href="faqs#content" title="Skip to content">'Skip to content</a></div>
+
+<div id="menu">
+	<ul>
+		<li class="page_item page-item"><a href="../2011/">Blog</a></li>
+		<li class="page_item page-item"><a href="participate/index.html" title="Participate">Participate</a></li>
+		<li class="page_item page-item"><a href="ocw/events/LPC2011/schedule" title="Schedule">Schedule</a></li>
+		<!--
+		<li class="page_item page-item"><a href="/2011/schedule" title="Schedule">Schedule</a></li>
+		-->
+		<li class="page_item page-item"><a href="attend/index.html" title="Attend">Attend</a></li>
+		<li class="page_item page-item"><a href="contact/index.html" title="Contact">Contact</a></li>
+		<li class="page_item page-item"><a href="faqs" title="FAQs">FAQs</a></li>
+	</ul>
+</div>
+
+	</div><!-- #access -->
+
+
+	<div id="container">
+		<div id="content">
+
+
+			<div id="post-97" class="hentry p1 page publish author-jejb untagged y2011 m02 d15 h20">
+				<h2 class="entry-title">FAQs</h2>
+				<div class="entry-content">
+<div>
+<h2>How much does it cost?</h2>
+<p>Costs to attend the Linux Plumbers Conference vary, depending on when you register:</p>
+<ul>
+<li>Students: $100</li>
+<li>Earlybird Registration: $275</li>
+<li>Standard Registration: $325</li>
+<li>Late Registration: $400</li>
+</ul>
+<h2>When does registration open?</h2>
+<p>Registration will open around April</p>
+<h2>When does registration end?</h2>
+<p>Registration will end on the night before the conference opens.</p>
+<h2>Is there a discounted student rate?</h2>
+<p>Yes, the 2010 student discount rate is $100.  You must show proof of being a full time student (usually defined as 12  credit hours for the current term) on the first day of the conference.  If you have questions please <a href="http://www.linuxplumbersconf.org/2010/contact/index.html">contact us</a>.</p>
+<h2>Can I get a travel sponsorship?</h2>
+<p>Our travel budget  is extremely limited. If you require a travel sponsorship please <a href="mailto:contact@linuxplumbersconf.org">contact us</a>.  Priority for travel sponsorship will be given to speakers and Runners.</p>
+<h2>Where can I find information about the hotel, travel, and activities?</h2>
+<p>Here at the <a href="attend/index.html">Registration and Travel</a> page.</p>
+<h2><strong><em> </em></strong>Do I need a visa to get into the US?</h2>
+<p><em> </em>See <a href="http://travel.state.gov/visa/temp/temp_1305.html">Temporary Visitors to the U.S.</a></p>
+<h2><em> </em>How do I get an official invitation to the conference for my visa application?</h2>
+<p><em> </em>After you register, email <a href="mailto:contact@linuxplumbersconf.org">contact@linuxplumbersconf.org</a> and we’ll send you a pdf invitation letter you can print.<br />
+<a name="new-microconf"><br />
+</a></p>
+<h2><a name="new-microconf">How do I submit a microconference proposal?</a></h2>
+<p>If you wish to submit a topic as a microconference, please submit it  to the General track and add “Please consider as microconference” to the  description. Please note that a successful microconference requires  buy-in and participation from maintainers and other high-profile people  active in the area. So, if you submit a microconference proposal, you  will also need to encourage others to submit talk proposals relevant to  your topic.</p>
+<p>The program committee has the final say in choice of microconference  topics. Each microconference must have a runner, who will have final say  in what talks are accepted into that microconference.</p>
+<p><a name="plumbers-purpose"><br />
+</a></p>
+<h2><a name="plumbers-purpose">What is the purpose of the Linux Plumbers Conference?</a></h2>
+<p>The Linux Plumbers Conference (LPC) is a developer conference for the open source community. The LPC brings together the top developers working on the “plumbing” of Linux — kernel subsystems, core libraries, windowing systems, etc. — and gives them three days to work together on core design problems. The conference is divided into several working sessions focusing on different “plumbing” topics, as well as a general paper track.</p>
+<p>A good topic will cut across community boundaries, and should generate vigorous discussion leading to beneficial change. One excellent example from a past LPC was “From Naught to Sixty in 5 Seconds” back in 2008. This topic involved a sizable fraction of the Linux-related software stack, and required coordinated changes to many components. It set the goal of booting a netbook in five seconds, and within a few months actually achieved a three-second boot. That said, talks describing lessons learned during an already-completed implementation effort are also welcome, as long as they are likely to generate good discussion and to help others avoid similar pitfalls in future implementation efforts.
+</p></div>
+
+
+
+				</div>
+			</div><!-- .post -->
+
+
+		</div><!-- #content -->
+	</div><!-- #container -->
+
+	<div id="primary" class="sidebar">
+
+		<ul class="xoxo">
+
+			<li id="attend-links">
+				<h3>Participate</h3>
+				<ul>
+				<li class="page_item page-item-1"><a href="http://www.regonline.com/Register/Checkin.aspx?EventID=959018">Register to attend</a></li>
+				<li class="page_item page-item-2"><a href="ocw/events/LPC2011/proposals" title="Proposal list">Submit a Presentation</a></li>
+				<li class="page_item page-item-2"><a href="ocw/events/LPC2011BOFS/proposals" title="Proposal List">Submit a BoF</a></li>
+				<li class="page_item page-item-2"><a href="ocw/events/LPC2011MC/proposals" title="Proposal List">Submit a MicroConference</a></li>
+
+				</ul>
+			</li>
+
+			<li id="social-links">
+				<h3>Stay Connected</h3>
+				<ul>
+					<li><a href="http://www.linuxplumbersconf.org/2011/feed" title="Linux Plumbers Conference latest posts" rel="alternate" type="application/rss+xml">Blog Feed</a></li>
+					<li><a href="https://twitter.com/linuxplumbers">Twitter</a></li>
+					<li><a href="https://identi.ca/linuxplumbers">identi.ca</a></li>
+					<li><a href="http://lists.osuosl.org/mailman/listinfo/lpc-announce">Announce list</a></li>
+					<li><a href="http://planet.linuxplumbersconf.org/">Planet LPC</a></li>
+				</ul>
+			</li>
+
+						<div id="sponsor-links">
+				<h3>Sponsors</h3>
+				<br>
+				<h5>Platinum</h5>
+				<br><a href="http://intel.com"><img src="style/intel_logo.png" /></a>
+				<br>
+				<br><a href="http://ibm.com"><img src="style/IBMtm.png" /></a>
+				<br>
+				<br><a href="http://qualcomm.com"><img src="style/Qualcomm.png" /></a>
+				<br>&nbsp;
+				<h5>Gold</h5>
+				<br><a href="http://google.com"><img src="style/google_logo.gif" /></a>
+				<!--
+				<br>
+				<br><a href="http://www.ti.com"><img src="/2011/style/ti_logo.gif" /></a>
+		-->
+				<br>&nbsp;
+				<h5>Silver</h5>
+				<br><a href="http://hp.com"><img src="style/hp_logo.gif" /></a>
+		<!--
+				<br>&nbsp;
+				<br><a href="http://www.akamai.com"><img src="/2011/style/akamai_logo_pms.png" /></a>
+		-->
+				<br>&nbsp;
+				<br><a href="http://www.linaro.org"><img src="style/linaro-1.png" /></a>
+				<br>&nbsp;
+				<a href="http://www.collabora.co.uk"><img src="style/collabora-logo.png" /></a>
+				<br>&nbsp;
+				<br><a href="http://canonical.com"><img src="style/canonical.png" /></a>
+
+				<br>&nbsp;
+				<br><a href="http://otn.oracle.com/linux"><img src="style/oracle.png" /></a>
+				<h3>Internet Sponsors</h3>
+				<br><a href="http://www.sonic.net"><img src="style/sonic.png" /></a>
+				<!--
+				<h3>Media Sponsors</h3>
+				<ul class="sponsor-links">
+
+					<li><a href="http://lwn.net"><img src="/2011/style/lwnlogo.png" /></a></li>
+					<li><a href="http://linuxjournel.com"><img src="/2011/style/ljcolor.png" /></a></li>
+					<li><a href="http://www.linuxpromagazine.com/"><img src="/2011/style/LinuxPro-logo.png" /></a></li>
+				</ul>
+-->
+			</div>
+
+
+
+		</ul>
+	</div><!-- #primary .sidebar -->
+
+	<div id="secondary" class="sidebar">
+		<ul class="xoxo">
+			<li id="search">
+				<h3><label for="s">Search</label></h3>
+				<form id="searchform" class="blog-search" method="get" action="../2011/">
+					<div>
+						<input id="s" name="s" type="text" class="text" value="" size="10" tabindex="1" />
+						<input type="submit" class="button" value="Find" tabindex="2" />
+					</div>
+				</form>
+			</li>
+
+
+
+			<li id="meta">
+				<h3>Meta</h3>
+				<ul>
+					
+					<li><a href="https://www.linuxplumbersconf.org/2011/wp-login.php">Log in</a></li>
+					
+				</ul>
+			</li>
+		</ul>
+	</div><!-- #secondary .sidebar -->
+
+	<div id="footer">
+<a href="http://osuosl.org"><img border="0" src="style/osl-hosted.png" alt="OSL"/></a>
+	</div><!-- #footer -->
+
+</div><!-- #wrapper .hfeed -->
+
+
+</body>
+</html>

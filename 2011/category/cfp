@@ -1,0 +1,220 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+	<title>CFP &#8211; Linux Plumbers Conference</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="../wp-content/themes/lpcwp/style.css" />
+<link rel="alternate" type="application/rss+xml" title="Linux Plumbers Conference &raquo; CFP Category Feed" href="http://www.linuxplumbersconf.org/2011/category/cfp/feed" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Linux Plumbers Conference' href='../../2011/' />
+<meta name="generator" content="WordPress 3.1.1" />
+	<link rel="alternate" type="application/rss+xml" href="http://www.linuxplumbersconf.org/2011/feed" title="Linux Plumbers Conference latest posts" />
+	<link rel="alternate" type="application/rss+xml" href="http://www.linuxplumbersconf.org/2011/comments/feed" title="Linux Plumbers Conference latest comments" />
+	<link rel="pingback" href="../xmlrpc.php" />
+</head>
+
+<body class="wordpress y2012 m03 d05 h01 archive category category-cfp">
+
+<div id="wrapper" class="hfeed">
+
+	<div id="header">
+		<h1 id="site-title"><span><a href="../../2011/" title="Linux Plumbers Conference" rel="home">Linux Plumbers Conference</a></span></h1>
+		<div id="site-description">Making the Linux Ecosystem work</div>
+	</div><!--  #header -->
+
+		<div id="access">
+		<div class="skip-link"><a href="cfp#content" title="Skip to content">'Skip to content</a></div>
+
+<div id="menu">
+	<ul>
+		<li class="page_item page-item"><a href="../../2011/">Blog</a></li>
+		<li class="page_item page-item"><a href="../participate/index.html" title="Participate">Participate</a></li>
+		<li class="page_item page-item"><a href="../ocw/events/LPC2011/schedule" title="Schedule">Schedule</a></li>
+		<!--
+		<li class="page_item page-item"><a href="/2011/schedule" title="Schedule">Schedule</a></li>
+		-->
+		<li class="page_item page-item"><a href="../attend/index.html" title="Attend">Attend</a></li>
+		<li class="page_item page-item"><a href="../contact/index.html" title="Contact">Contact</a></li>
+		<li class="page_item page-item"><a href="../faqs" title="FAQs">FAQs</a></li>
+	</ul>
+</div>
+
+	</div><!-- #access -->
+
+
+	<div id="container">
+		<div id="content">
+
+			<h2 class="page-title">Category Archives: <span>CFP</span></h2>
+			
+
+			<div id="nav-above" class="navigation">
+				<div class="nav-previous"></div>
+				<div class="nav-next"></div>
+			</div>
+
+
+			<div id="post-631" class="hentry p1 post publish author-jejb category-cfp untagged y2011 m05 d02 h20">
+				<h3 class="entry-title"><a href="../plumbers-proposal-deadline-extended/trackback" title="Permalink to Plumbers Proposal Deadline Extended" rel="bookmark">Plumbers Proposal Deadline Extended</a></h3>
+				<div class="entry-date"><abbr class="published" title="2011-05-02T20:47:43+0000">May 2, 2011 &#8211; 8:47 pm</abbr></div>
+				<div class="entry-content">
+<p>Apparently there were several people who managed to miss the deadline with their proposal.  Rather than make exceptions, the Programme Committee has decided to extend the submission deadline (and thus the notification deadline) for 15 days to 15 May 2011 (this will be the finally final deadline). To submit proposals, use this link: http://www.linuxplumbersconf.org/2011/ocw/events/LPC2011/proposals</p>
+
+				</div>
+				<div class="entry-meta">
+					<span class="author vcard">By <a class="url fn n" href="../author/jejb" title="View all posts by jejb">jejb</a></span>
+					<span class="meta-sep">|</span>
+										<span class="comments-link"><a href="../plumbers-proposal-deadline-extended/trackback#respond" title="Comment on Plumbers Proposal Deadline Extended">Comments (0)</a></span>
+				</div>
+			</div><!-- .post -->
+
+
+			<div id="post-325" class="hentry p2 post publish author-jejb category-cfp untagged y2011 m03 d22 h23 alt">
+				<h3 class="entry-title"><a href="../linux-plumbers-conference-call-for-working-sessions-submissions/trackback" title="Permalink to Linux Plumbers Conference Call For Working Sessions Submissions" rel="bookmark">Linux Plumbers Conference Call For Working Sessions Submissions</a></h3>
+				<div class="entry-date"><abbr class="published" title="2011-03-22T23:33:24+0000">March 22, 2011 &#8211; 11:33 pm</abbr></div>
+				<div class="entry-content">
+<p>﻿﻿The Planning Committee for the Linux Plumbers Conference (LPC) is happy to announce that submissions to the “micro-conferences” portion of the conference is now open.  The micro-conferences are working session focused on specific infrastructural “plumbing” in the Linux system – kernel subsystems, core libraries, windowing system, etc. — which are half-day in length. The potential topics for the working sessions [...]</p>
+
+				</div>
+				<div class="entry-meta">
+					<span class="author vcard">By <a class="url fn n" href="../author/jejb" title="View all posts by jejb">jejb</a></span>
+					<span class="meta-sep">|</span>
+										<span class="comments-link"><a href="../linux-plumbers-conference-call-for-working-sessions-submissions/trackback#respond" title="Comment on Linux Plumbers Conference Call For Working Sessions Submissions">Comments (0)</a></span>
+				</div>
+			</div><!-- .post -->
+
+
+			<div id="post-259" class="hentry p3 post publish author-paulmck category-cfp untagged y2011 m03 d16 h01">
+				<h3 class="entry-title"><a href="../linux-plumbers-conference-cfp/trackback" title="Permalink to Linux Plumbers Conference CFP" rel="bookmark">Linux Plumbers Conference CFP</a></h3>
+				<div class="entry-date"><abbr class="published" title="2011-03-16T01:29:35+0000">March 16, 2011 &#8211; 1:29 am</abbr></div>
+				<div class="entry-content">
+<p>We are now accepting proposals for presentations and BoF sessions to be given at the Linux Plumbers Conference.</p>
+
+				</div>
+				<div class="entry-meta">
+					<span class="author vcard">By <a class="url fn n" href="../author/paulmck" title="View all posts by paulmck">paulmck</a></span>
+					<span class="meta-sep">|</span>
+										<span class="comments-link"><a href="../linux-plumbers-conference-cfp/trackback#respond" title="Comment on Linux Plumbers Conference CFP">Comments (0)</a></span>
+				</div>
+			</div><!-- .post -->
+
+
+			<div id="nav-below" class="navigation">
+				<div class="nav-previous"></div>
+				<div class="nav-next"></div>
+			</div>
+
+		</div><!-- #content -->
+	</div><!-- #container -->
+
+	<div id="primary" class="sidebar">
+
+		<ul class="xoxo">
+
+			<li id="attend-links">
+				<h3>Participate</h3>
+				<ul>
+				<li class="page_item page-item-1"><a href="http://www.regonline.com/Register/Checkin.aspx?EventID=959018">Register to attend</a></li>
+				<li class="page_item page-item-2"><a href="../ocw/events/LPC2011/proposals" title="Proposal list">Submit a Presentation</a></li>
+				<li class="page_item page-item-2"><a href="../ocw/events/LPC2011BOFS/proposals" title="Proposal List">Submit a BoF</a></li>
+				<li class="page_item page-item-2"><a href="../ocw/events/LPC2011MC/proposals" title="Proposal List">Submit a MicroConference</a></li>
+
+				</ul>
+			</li>
+
+			<li id="social-links">
+				<h3>Stay Connected</h3>
+				<ul>
+					<li><a href="http://www.linuxplumbersconf.org/2011/feed" title="Linux Plumbers Conference latest posts" rel="alternate" type="application/rss+xml">Blog Feed</a></li>
+					<li><a href="https://twitter.com/linuxplumbers">Twitter</a></li>
+					<li><a href="https://identi.ca/linuxplumbers">identi.ca</a></li>
+					<li><a href="http://lists.osuosl.org/mailman/listinfo/lpc-announce">Announce list</a></li>
+					<li><a href="http://planet.linuxplumbersconf.org/">Planet LPC</a></li>
+				</ul>
+			</li>
+
+						<div id="sponsor-links">
+				<h3>Sponsors</h3>
+				<br>
+				<h5>Platinum</h5>
+				<br><a href="http://intel.com"><img src="../style/intel_logo.png" /></a>
+				<br>
+				<br><a href="http://ibm.com"><img src="../style/IBMtm.png" /></a>
+				<br>
+				<br><a href="http://qualcomm.com"><img src="../style/Qualcomm.png" /></a>
+				<br>&nbsp;
+				<h5>Gold</h5>
+				<br><a href="http://google.com"><img src="../style/google_logo.gif" /></a>
+				<!--
+				<br>
+				<br><a href="http://www.ti.com"><img src="/2011/style/ti_logo.gif" /></a>
+		-->
+				<br>&nbsp;
+				<h5>Silver</h5>
+				<br><a href="http://hp.com"><img src="../style/hp_logo.gif" /></a>
+		<!--
+				<br>&nbsp;
+				<br><a href="http://www.akamai.com"><img src="/2011/style/akamai_logo_pms.png" /></a>
+		-->
+				<br>&nbsp;
+				<br><a href="http://www.linaro.org"><img src="../style/linaro-1.png" /></a>
+				<br>&nbsp;
+				<a href="http://www.collabora.co.uk"><img src="../style/collabora-logo.png" /></a>
+				<br>&nbsp;
+				<br><a href="http://canonical.com"><img src="../style/canonical.png" /></a>
+
+				<br>&nbsp;
+				<br><a href="http://otn.oracle.com/linux"><img src="../style/oracle.png" /></a>
+				<h3>Internet Sponsors</h3>
+				<br><a href="http://www.sonic.net"><img src="../style/sonic.png" /></a>
+				<!--
+				<h3>Media Sponsors</h3>
+				<ul class="sponsor-links">
+
+					<li><a href="http://lwn.net"><img src="/2011/style/lwnlogo.png" /></a></li>
+					<li><a href="http://linuxjournel.com"><img src="/2011/style/ljcolor.png" /></a></li>
+					<li><a href="http://www.linuxpromagazine.com/"><img src="/2011/style/LinuxPro-logo.png" /></a></li>
+				</ul>
+-->
+			</div>
+
+
+
+		</ul>
+	</div><!-- #primary .sidebar -->
+
+	<div id="secondary" class="sidebar">
+		<ul class="xoxo">
+			<li id="search">
+				<h3><label for="s">Search</label></h3>
+				<form id="searchform" class="blog-search" method="get" action="../../2011/">
+					<div>
+						<input id="s" name="s" type="text" class="text" value="" size="10" tabindex="1" />
+						<input type="submit" class="button" value="Find" tabindex="2" />
+					</div>
+				</form>
+			</li>
+
+
+
+			<li id="meta">
+				<h3>Meta</h3>
+				<ul>
+					
+					<li><a href="https://www.linuxplumbersconf.org/2011/wp-login.php">Log in</a></li>
+					
+				</ul>
+			</li>
+		</ul>
+	</div><!-- #secondary .sidebar -->
+
+	<div id="footer">
+<a href="http://osuosl.org"><img border="0" src="http://www.linuxplumbersconf.org/2011/category/style/osl-hosted.png" alt="OSL"/></a>
+	</div><!-- #footer -->
+
+</div><!-- #wrapper .hfeed -->
+
+
+</body>
+</html>

@@ -1,0 +1,326 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+  <title>Backporting the Linux kernel, for good / Linux Plumbers Conference: Developing the Kernel, Libraries and Utilities / September 7-9, 2011 / Santa Rosa, CA</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="description" content="Developing the Kernel, Libraries and Utilities / September 7-9, 2011 / Santa Rosa, CA" />
+
+  <!-- Feeds -->
+  <link href="../proposals.atom" rel="alternate" title="Linux Plumbers Conference: Proposals feed" type="application/atom+xml" />
+  
+
+  <!-- Stylesheets -->
+  
+    <link href="http://linuxplumbersconf.org/2011/style/style.css" media="screen" rel="stylesheet" type="text/css" />
+  
+  <link href="../themes/lpc/stylesheets/custom.css?1324622285" media="screen" rel="Stylesheet" type="text/css" />
+  
+
+  <!-- Dynamic styles -->
+  
+    
+      <style type="text/css" media="screen">
+        
+  /* BoF */
+  .track-15 { color: #d38c1d; }
+  .track-15.block { background: #d38c1d; color: #fff; }
+  .track-15.light { background: #f0cb90; }
+  .track-15.light:hover { background: #eab766; }
+
+      </style>
+    
+  
+
+  <!-- Scripts -->
+  <script src="../javascripts/jquery.min.js" type="text/javascript"></script>
+  <script src="../javascripts/jquery-ui.effects.core.js" type="text/javascript"></script>
+  <script src="../javascripts/jquery-ui.effects.highlight.js" type="text/javascript"></script>
+  <script src="../javascripts/application.js" type="text/javascript"></script>
+  
+    
+    
+  <script type="text/javascript" charset="utf-8">
+    $(document).ready(function() {
+      app.favorites_path = '/2011/ocw/users/me/favorites';
+      app.current_user = false;
+      app.authenticity_token = '2c4443b355bc31bee23c787833cb0a270f09bb07';
+      populate_user_favorites();
+      bind_user_favorite_controls();
+      bind_calendar_items();
+    });
+  </script>
+</head>
+
+
+
+<body>
+  <div id="wrapper">
+     <div id="header">
+           <h1 id="site-title"><span><a href="http://linuxplumbersconf.org/2011/" title="Linux Plumbers Conf 2011" rel="home">Linux Plumbers Conf 2011</a></span></h1>
+           <div id="site-description">Developing the Kernel, Libraries and Utilities</div>
+      </div>
+
+      	<div id="access">
+		<div class="skip-link"><a href="771#content" title="Skip to content">'Skip to content</a></div>
+
+<div id="menu">
+	<ul>
+		<li class="page_item page-item"><a href="../../../2011/">Blog</a></li>
+		<li class="page_item page-item"><a href="../../participate/index.html" title="Participate">Participate</a></li>
+		<li class="page_item page-item"><a href="../events/LPC2011/schedule" title="Schedule">Schedule</a></li>
+		<!--
+		<li class="page_item page-item"><a href="/2011/schedule" title="Schedule">Schedule</a></li>
+		-->
+		<li class="page_item page-item"><a href="../../attend/index.html" title="Attend">Attend</a></li>
+		<li class="page_item page-item"><a href="../../contact/index.html" title="Contact">Contact</a></li>
+		<li class="page_item page-item"><a href="../../faqs" title="FAQs">FAQs</a></li>
+	</ul>
+</div>
+
+	</div><!-- #access -->
+
+
+      <div id="container">
+        <div id="content">
+          <h2 class='entry-title'>Proposals</h2>
+          
+
+          <h2 class='page_title'>Backporting the Linux kernel, for good</h2>
+
+          <!-- Display notices -->
+          
+          
+          
+          <div class="flash" id="flash"><p class="failure">Session information has not yet been published for this event.</p></div>
+
+          <!-- Display view's content -->
+          
+
+<a href="../users/me/favorites" class="favorite favorite_771"><span>*</span></a>
+
+
+
+
+
+
+  
+
+  <div class='show-proposal'>
+
+
+  <div class='proposal-meta'>
+    
+  
+      <div class='track block track-15'>
+        <a href="../events/LPC2011BOFS/tracks/15">BoF</a>
+      </div>
+  
+  
+      <a href="../events/LPC2011BOFS/session_types/15" class="session_type">60 minute BoF</a>
+  
+<!-- jejb: this serves no purpose and looks strange
+    <div class='proposal-slug'>
+      lpcLPC2011BOFS-0771
+    </div>
+-->
+    
+      <div class='proposal-scheduling'>
+        <b>Scheduled:</b>
+        Thursday, September 8, 2011 from 6:30 &ndash; 7:30pm 
+        in 
+        <a href="http://linuxplumbersconf.org/2011/ocw/events/LPC2011BOFS/rooms/27">Chalk Hill</a>
+      </div>
+    
+      </div>
+  
+  
+    <h3>One Line Summary</h3>
+    <div class="compressed"><p>Unifying Linux kernel backport efforts</p></div>
+  
+
+    <h3>Abstract</h3>
+    <p>Typically Linux distributions differentiate themselves in what features get backported into some &#8220;Enterprise&#8221; releases. Sometimes contractors get hired to backport drivers for random kernel releases. Users at times may not be able to use newer hardware unless their drivers are backported on older stable kernels.</p>
+<p>Why not share Linux kernel backport efforts and in fact automate it as much as possible? In this session we&#8217;ll review the backport efforts made for the 802.11, Bluetooth and Networking subsystems and review with the community on possibilities to expand on this effort in the hopes of unifying and reducing backport work as much as possible.</p>
+
+  
+    <h3>Tags</h3>
+    <p>Linux kernel backport</p>
+  
+
+  
+    <h3>Presentation Materials</h3>
+    <a href="http://linuxplumbersconf.org/2011/ocw//system/presentations/771/original/kernel-backport-for-good.odp">slides</a>
+  
+
+  
+
+  <div class="record-controls">
+    
+    <a href="../events/LPC2011BOFS/proposals" class="cancelable">Back to list of proposals</a>
+  </div>
+
+  
+    <h3>Speaker</h3>
+
+    
+
+<ul class='user_list'>
+
+  
+
+<li class="user_box vcard ">
+  <a href="../users/987"><img alt="198707_10100759829198079_8850816_63478897_1464329_n" class="user-photo photo" src="../system/photos/987/profile/198707_10100759829198079_8850816_63478897_1464329_n.jpg" /></a>
+  <div class='user_head'>
+    <h3><a href="../users/987" class="fn n" id="id_987" name="id_987">Luis Rodriguez</a></h3>
+        <span class='affiliation org'>Qualcomm Atheros</span>
+      </div>
+  <div class='user_body'>
+    <div class='user_links'>
+      <ul>
+                
+        
+        
+          <li>Twitter: <a href="http://twitter.com/mcgrof" onclick="window.open(this.href);return false;" rel="nofollow">mcgrof</a></li>
+        
+        
+          <li>Identi.ca: <a href="http://identi.ca/mcgrof" onclick="window.open(this.href);return false;" rel="nofollow">mcgrof</a></li>
+        
+        
+              </ul>
+    </div>
+
+  
+    <h4>Biography</h4>
+    <div class='note'>
+      <p>Luis is a Linux kernel developer at Qualcomm. Luis started hacking on the kernel as a student while at Rutgers University after purchasing a card that did not work with his Operating System. Luis worked with the community on starting a driver project, prism54, and it became the first 802.11g driver that made it upstream into the Linux kernel through the 2.6.5 release. Luis then joined Rutgers&#8217; Wireless Information Network Laboratory. At <span class="caps">WINLAB</span> he worked on an upstream replacement for MadWifi and started addressing Linux regulatory considerations. The results of a lot of legal review with <span class="caps">SFLC</span> and the community resulted in what we now know as ath5k which made it into the 2.6.25 release. Luis later was hired by Atheros Communications and with the help of his new team upstreamed a complete open driver for Atheros 802.11n hardware through ath9k on the 2.6.27 release; this time with proper support from Atheros. Luis was listed as one of the the top contributors to the Linux kernel in the 2010 Linux Foundation Linux kernel report in between the 2.6.30 and 2.6.35 releases. Luis drove Atheros from contributing 0 patches to the Linux kernel to becoming the 15th top Corporate contributor to the Linux kernel in between 2.6.30 and 2.6.35. Today his focus is on helping guide Qualcomm Atheros with upstream strategies and helping other engineers contribute upstream properly.</p>
+<p>Luis also maintains a generic Linux kernel compatibility module, compat.git, and a framework for automatic backport work for the 802.11, Bluetooth and Networking subsystems through compat-wireless.git. Luis is also the author of the existing cfg80211 regulatory framework, <span class="caps">CRDA</span>, wireless-regdb and as of recently hostapd&#8217;s Automatic Channel Selection module.</p>
+    </div>
+  
+  
+  
+  
+  
+      
+  </div>
+</li>
+</ul>
+
+
+  
+
+
+
+
+
+
+
+</div>
+
+        </div><!-- content -->
+      </div><!-- container -->
+
+        <div id="primary" class="sidebar">
+          <ul class="xoxo">
+            
+              <li id="login-as">
+                <h3>Welcome</h3>
+                <ul>
+                  <li><a href="../events/LPC2011/proposals/new">Login</a></li>
+                  
+                </ul>
+              </li>
+            
+
+            <li id="subscribe-to">
+              <h3>Subscribe to</h3>
+              <ul>
+                <li class="pre-bulletted"><a href="../proposals.atom" class="feedable">Proposals feed</a></li>
+                
+              </ul>
+            </li>
+
+            
+          </ul>
+	  			<div id="sponsor-links">
+				<h3>Sponsors</h3>
+				<br>
+				<h5>Platinum</h5>
+				<br><a href="http://intel.com"><img src="../../style/intel_logo.png" /></a>
+				<br>
+				<br><a href="http://ibm.com"><img src="../../style/IBMtm.png" /></a>
+				<br>
+				<br><a href="http://qualcomm.com"><img src="../../style/Qualcomm.png" /></a>
+				<br>&nbsp;
+				<h5>Gold</h5>
+				<br><a href="http://google.com"><img src="../../style/google_logo.gif" /></a>
+				<!--
+				<br>
+				<br><a href="http://www.ti.com"><img src="/2011/style/ti_logo.gif" /></a>
+		-->
+				<br>&nbsp;
+				<h5>Silver</h5>
+				<br><a href="http://hp.com"><img src="../../style/hp_logo.gif" /></a>
+		<!--
+				<br>&nbsp;
+				<br><a href="http://www.akamai.com"><img src="/2011/style/akamai_logo_pms.png" /></a>
+		-->
+				<br>&nbsp;
+				<br><a href="http://www.linaro.org"><img src="../../style/linaro-1.png" /></a>
+				<br>&nbsp;
+				<a href="http://www.collabora.co.uk"><img src="../../style/collabora-logo.png" /></a>
+				<br>&nbsp;
+				<br><a href="http://canonical.com"><img src="../../style/canonical.png" /></a>
+
+				<br>&nbsp;
+				<br><a href="http://otn.oracle.com/linux"><img src="../../style/oracle.png" /></a>
+				<h3>Internet Sponsors</h3>
+				<br><a href="http://www.sonic.net"><img src="../../style/sonic.png" /></a>
+				<!--
+				<h3>Media Sponsors</h3>
+				<ul class="sponsor-links">
+
+					<li><a href="http://lwn.net"><img src="/2011/style/lwnlogo.png" /></a></li>
+					<li><a href="http://linuxjournel.com"><img src="/2011/style/ljcolor.png" /></a></li>
+					<li><a href="http://www.linuxpromagazine.com/"><img src="/2011/style/LinuxPro-logo.png" /></a></li>
+				</ul>
+-->
+			</div>
+
+
+
+        </div><!-- #sidebar-1 -->
+
+    <div id="footer">
+    <a href="http://osuosl.org"><img border="0" src="http://linuxplumbersconf.org/2011/style/osl-hosted.png" alt="OSL"/></a>
+    </div>
+
+  </div><!--wrapper -->
+
+  
+
+  <!-- arbitrary javascript from views -->
+  <script type="text/javascript">
+//<![CDATA[
+window._token = '2c4443b355bc31bee23c787833cb0a270f09bb07'
+//]]>
+</script>
+  <script type="text/javascript">
+    
+  </script>
+
+  
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-168427-8");
+      pageTracker._initData();
+      pageTracker._trackPageview();
+    </script>
+
+    <script src="http://static.getclicky.com/79611.js" type="text/javascript"></script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="http://static.getclicky.com/79611-db10.gif" /></p></noscript>
+  
+</body>
+</html>

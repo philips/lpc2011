@@ -1,0 +1,430 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+  <title>Globally fair group CPU scheduling / Linux Plumbers Conference: Developing the Kernel, Libraries and Utilities / September 7-9, 2011 / Santa Rosa, CA</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="description" content="Developing the Kernel, Libraries and Utilities / September 7-9, 2011 / Santa Rosa, CA" />
+
+  <!-- Feeds -->
+  <link href="../proposals.atom" rel="alternate" title="Linux Plumbers Conference: Proposals feed" type="application/atom+xml" />
+  
+
+  <!-- Stylesheets -->
+  
+    <link href="http://linuxplumbersconf.org/2011/style/style.css" media="screen" rel="stylesheet" type="text/css" />
+  
+  <link href="../themes/lpc/stylesheets/custom.css?1324622285" media="screen" rel="Stylesheet" type="text/css" />
+  
+
+  <!-- Dynamic styles -->
+  
+    
+      <style type="text/css" media="screen">
+        
+  /* Audio */
+  .track-27 { color: #9bf014; }
+  .track-27.block { background: #9bf014; color: #fff; }
+  .track-27.light { background: #d9f9a7; }
+  .track-27.light:hover { background: #c5f676; }
+
+  /* BoF */
+  .track-15 { color: #d38c1d; }
+  .track-15.block { background: #d38c1d; color: #fff; }
+  .track-15.light { background: #f0cb90; }
+  .track-15.light:hover { background: #eab766; }
+
+  /* Bufferbloat and Networking */
+  .track-93 { color: #f41531; }
+  .track-93.block { background: #f41531; color: #fff; }
+  .track-93.light { background: #fbadb7; }
+  .track-93.light:hover { background: #f97a8a; }
+
+  /* Cloud */
+  .track-75 { color: #e919f0; }
+  .track-75.block { background: #e919f0; color: #fff; }
+  .track-75.light { background: #f7aefa; }
+  .track-75.light:hover { background: #f37df6; }
+
+  /* Containers and Cgroups */
+  .track-105 { color: #259341; }
+  .track-105.block { background: #259341; color: #fff; }
+  .track-105.light { background: #53d474; }
+  .track-105.light:hover { background: #35cc5c; }
+
+  /* Desktop */
+  .track-87 { color: #f52965; }
+  .track-87.block { background: #f52965; color: #fff; }
+  .track-87.light { background: #fdcddb; }
+  .track-87.light:hover { background: #fa96b4; }
+
+  /* Development Tools */
+  .track-45 { color: #15f2f4; }
+  .track-45.block { background: #15f2f4; color: #fff; }
+  .track-45.light { background: #adfafb; }
+  .track-45.light:hover { background: #7af8f9; }
+
+  /* Early Boot and Init Systems */
+  .track-21 { color: #f1ee27; }
+  .track-21.block { background: #f1ee27; color: #fff; }
+  .track-21.light { background: #fbfac5; }
+  .track-21.light:hover { background: #f8f690; }
+
+  /* Embedded Build Systems */
+  .track-51 { color: #0c97df; }
+  .track-51.block { background: #0c97df; color: #fff; }
+  .track-51.light { background: #80cff8; }
+  .track-51.light:hover { background: #53bef6; }
+
+  /* File and Storage Systems */
+  .track-33 { color: #0df21d; }
+  .track-33.block { background: #0df21d; color: #fff; }
+  .track-33.light { background: #9efaa5; }
+  .track-33.light:hover { background: #6ef777; }
+
+  /* Keynote */
+  .track-123 { color: #10f4da; }
+  .track-123.block { background: #10f4da; color: #fff; }
+  .track-123.light { background: #a5fbf1; }
+  .track-123.light:hover { background: #73f9e9; }
+
+  /* Mobile */
+  .track-39 { color: #12f38b; }
+  .track-39.block { background: #12f38b; color: #fff; }
+  .track-39.light { background: #a7fbd4; }
+  .track-39.light:hover { background: #75f8bc; }
+
+  /* Power Management */
+  .track-81 { color: #f434a7; }
+  .track-81.block { background: #f434a7; color: #fff; }
+  .track-81.light { background: #fddcf0; }
+  .track-81.light:hover { background: #faa4d8; }
+
+  /* Real Time */
+  .track-63 { color: #8337f1; }
+  .track-63.block { background: #8337f1; color: #fff; }
+  .track-63.light { background: #eaddfd; }
+  .track-63.light:hover { background: #c8a6f9; }
+
+  /* Refereed Presentations */
+  .track-3 { color: #c11f1f; }
+  .track-3.block { background: #c11f1f; color: #fff; }
+  .track-3.light { background: #ea7c7c; }
+  .track-3.light:hover { background: #e45656; }
+
+  /* Scaling */
+  .track-69 { color: #9f13f6; }
+  .track-69.block { background: #9f13f6; color: #fff; }
+  .track-69.light { background: #ddacfc; }
+  .track-69.light:hover { background: #c979fa; }
+
+  /* Tracing */
+  .track-111 { color: #cccd2d; }
+  .track-111.block { background: #cccd2d; color: #fff; }
+  .track-111.light { background: #ebeba5; }
+  .track-111.light:hover { background: #e2e27c; }
+
+  /* Unified Memory Management */
+  .track-117 { color: #cd7f32; }
+  .track-117.block { background: #cd7f32; color: #fff; }
+  .track-117.light { background: #ebccad; }
+  .track-117.light:hover { background: #e1b284; }
+
+  /* Virtualization */
+  .track-57 { color: #0a1fe6; }
+  .track-57.block { background: #0a1fe6; color: #fff; }
+  .track-57.light { background: #8691fa; }
+  .track-57.light:hover { background: #5867f8; }
+
+      </style>
+    
+  
+
+  <!-- Scripts -->
+  <script src="../javascripts/jquery.min.js" type="text/javascript"></script>
+  <script src="../javascripts/jquery-ui.effects.core.js" type="text/javascript"></script>
+  <script src="../javascripts/jquery-ui.effects.highlight.js" type="text/javascript"></script>
+  <script src="../javascripts/application.js" type="text/javascript"></script>
+  
+    
+    
+  <script type="text/javascript" charset="utf-8">
+    $(document).ready(function() {
+      app.favorites_path = '/2011/ocw/users/me/favorites';
+      app.current_user = false;
+      app.authenticity_token = '2c4443b355bc31bee23c787833cb0a270f09bb07';
+      populate_user_favorites();
+      bind_user_favorite_controls();
+      bind_calendar_items();
+    });
+  </script>
+</head>
+
+
+
+<body>
+  <div id="wrapper">
+     <div id="header">
+           <h1 id="site-title"><span><a href="http://linuxplumbersconf.org/2011/" title="Linux Plumbers Conf 2011" rel="home">Linux Plumbers Conf 2011</a></span></h1>
+           <div id="site-description">Developing the Kernel, Libraries and Utilities</div>
+      </div>
+
+      	<div id="access">
+		<div class="skip-link"><a href="309#content" title="Skip to content">'Skip to content</a></div>
+
+<div id="menu">
+	<ul>
+		<li class="page_item page-item"><a href="../../../2011/">Blog</a></li>
+		<li class="page_item page-item"><a href="../../participate/index.html" title="Participate">Participate</a></li>
+		<li class="page_item page-item"><a href="../events/LPC2011/schedule" title="Schedule">Schedule</a></li>
+		<!--
+		<li class="page_item page-item"><a href="/2011/schedule" title="Schedule">Schedule</a></li>
+		-->
+		<li class="page_item page-item"><a href="../../attend/index.html" title="Attend">Attend</a></li>
+		<li class="page_item page-item"><a href="../../contact/index.html" title="Contact">Contact</a></li>
+		<li class="page_item page-item"><a href="../../faqs" title="FAQs">FAQs</a></li>
+	</ul>
+</div>
+
+	</div><!-- #access -->
+
+
+      <div id="container">
+        <div id="content">
+          <h2 class='entry-title'>Proposals</h2>
+          
+
+          <h2 class='page_title'>Globally fair group CPU scheduling</h2>
+
+          <!-- Display notices -->
+          
+          
+          
+          <div class="flash" id="flash"><p class="failure">Session information has not yet been published for this event.</p></div>
+
+          <!-- Display view's content -->
+          
+
+<a href="../users/me/favorites" class="favorite favorite_309"><span>*</span></a>
+
+
+
+
+
+
+  
+
+  <div class='show-proposal'>
+
+
+  <div class='proposal-meta'>
+    
+  
+      <div class='track block track-3'>
+        <a href="../events/LPC2011/tracks/3">Refereed Presentations</a>
+      </div>
+  
+  
+      <a href="../events/LPC2011/session_types/3" class="session_type">Presentation</a>
+  
+<!-- jejb: this serves no purpose and looks strange
+    <div class='proposal-slug'>
+      lpcLPC2011-0309
+    </div>
+-->
+    
+      <div class='proposal-scheduling'>
+        <b>Scheduled:</b>
+        Friday, September 9, 2011 from 3:10 &ndash; 4:00pm 
+        in 
+        <a href="http://linuxplumbersconf.org/2011/ocw/events/LPC2011/rooms/3">Alexander Valley Ball Room</a>
+      </div>
+    
+      </div>
+  
+  
+    <h3>One Line Summary</h3>
+    <div class="compressed"><p>A look at the fairness and wake-up latency improvements that can be achieved by extending vruntime beyond the per-cpu level.</p></div>
+  
+
+    <h3>Abstract</h3>
+    <p>The approximations used for the scheduling of group entities in the <span class="caps">CPU</span> scheduler are currently managed on a per-cpu basis.  While each entities&#8217; weight is globally approximated, the virtual timeline used for scheduling decisions is still completely localized.</p>
+<p>This results in both a lack of fairness and unpredictable wake-up latencies, for group entities.</p>
+<p>In this presentation we&#8217;ll first cover exactly what problems arise as a result of this, as well as their latency impact.  We&#8217;ll follow with some approaches for global approximation, their drawbacks, and where appropriate the realized gains.</p>
+
+  
+    <h3>Tags</h3>
+    <p>cpu, scheduler, cfs</p>
+  
+
+  
+    <h3>Presentation Materials</h3>
+    <a href="http://linuxplumbersconf.org/2011/ocw//system/presentations/309/original/LPC_2011_Global_Lag.pdf">slides</a>
+  
+
+  
+
+  <div class="record-controls">
+    
+    <a href="../events/LPC2011/proposals" class="cancelable">Back to list of proposals</a>
+  </div>
+
+  
+    <h3>Speaker</h3>
+
+    
+
+<ul class='user_list'>
+
+  
+
+<li class="user_box vcard ">
+  
+  <div class='user_head'>
+    <h3><a href="../users/309" class="fn n" id="id_309" name="id_309">Paul Turner</a></h3>
+        <span class='affiliation org'>Google</span>
+      </div>
+  <div class='user_body'>
+    <div class='user_links'>
+      <ul>
+                
+        
+        
+        
+        
+              </ul>
+    </div>
+
+  
+    <h4>Biography</h4>
+    <div class='note'>
+      <p>Paul is an engineer and technical lead with Google&#8217;s production kernel team. His interests lie primarily in the cpu scheduling and memory management sub-systems, with a focus on improving latency under high-frequency operations and scalability.</p>
+    </div>
+  
+  
+  
+  
+  
+      
+  </div>
+</li>
+</ul>
+
+
+  
+
+
+
+
+
+
+
+</div>
+
+        </div><!-- content -->
+      </div><!-- container -->
+
+        <div id="primary" class="sidebar">
+          <ul class="xoxo">
+            
+              <li id="login-as">
+                <h3>Welcome</h3>
+                <ul>
+                  <li><a href="../events/LPC2011/proposals/new">Login</a></li>
+                  
+                </ul>
+              </li>
+            
+
+            <li id="subscribe-to">
+              <h3>Subscribe to</h3>
+              <ul>
+                <li class="pre-bulletted"><a href="../proposals.atom" class="feedable">Proposals feed</a></li>
+                
+              </ul>
+            </li>
+
+            
+          </ul>
+	  			<div id="sponsor-links">
+				<h3>Sponsors</h3>
+				<br>
+				<h5>Platinum</h5>
+				<br><a href="http://intel.com"><img src="../../style/intel_logo.png" /></a>
+				<br>
+				<br><a href="http://ibm.com"><img src="../../style/IBMtm.png" /></a>
+				<br>
+				<br><a href="http://qualcomm.com"><img src="../../style/Qualcomm.png" /></a>
+				<br>&nbsp;
+				<h5>Gold</h5>
+				<br><a href="http://google.com"><img src="../../style/google_logo.gif" /></a>
+				<!--
+				<br>
+				<br><a href="http://www.ti.com"><img src="/2011/style/ti_logo.gif" /></a>
+		-->
+				<br>&nbsp;
+				<h5>Silver</h5>
+				<br><a href="http://hp.com"><img src="../../style/hp_logo.gif" /></a>
+		<!--
+				<br>&nbsp;
+				<br><a href="http://www.akamai.com"><img src="/2011/style/akamai_logo_pms.png" /></a>
+		-->
+				<br>&nbsp;
+				<br><a href="http://www.linaro.org"><img src="../../style/linaro-1.png" /></a>
+				<br>&nbsp;
+				<a href="http://www.collabora.co.uk"><img src="../../style/collabora-logo.png" /></a>
+				<br>&nbsp;
+				<br><a href="http://canonical.com"><img src="../../style/canonical.png" /></a>
+
+				<br>&nbsp;
+				<br><a href="http://otn.oracle.com/linux"><img src="../../style/oracle.png" /></a>
+				<h3>Internet Sponsors</h3>
+				<br><a href="http://www.sonic.net"><img src="../../style/sonic.png" /></a>
+				<!--
+				<h3>Media Sponsors</h3>
+				<ul class="sponsor-links">
+
+					<li><a href="http://lwn.net"><img src="/2011/style/lwnlogo.png" /></a></li>
+					<li><a href="http://linuxjournel.com"><img src="/2011/style/ljcolor.png" /></a></li>
+					<li><a href="http://www.linuxpromagazine.com/"><img src="/2011/style/LinuxPro-logo.png" /></a></li>
+				</ul>
+-->
+			</div>
+
+
+
+        </div><!-- #sidebar-1 -->
+
+    <div id="footer">
+    <a href="http://osuosl.org"><img border="0" src="http://linuxplumbersconf.org/2011/style/osl-hosted.png" alt="OSL"/></a>
+    </div>
+
+  </div><!--wrapper -->
+
+  
+
+  <!-- arbitrary javascript from views -->
+  <script type="text/javascript">
+//<![CDATA[
+window._token = '2c4443b355bc31bee23c787833cb0a270f09bb07'
+//]]>
+</script>
+  <script type="text/javascript">
+    
+  </script>
+
+  
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-168427-8");
+      pageTracker._initData();
+      pageTracker._trackPageview();
+    </script>
+
+    <script src="http://static.getclicky.com/79611.js" type="text/javascript"></script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="http://static.getclicky.com/79611-db10.gif" /></p></noscript>
+  
+</body>
+</html>

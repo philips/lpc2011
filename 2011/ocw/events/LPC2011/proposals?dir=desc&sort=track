@@ -1,0 +1,1280 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+  <title>Linux Plumbers Conference 2011 proposals / Linux Plumbers Conference: Developing the Kernel, Libraries and Utilities / September 7-9, 2011 / Santa Rosa, CA</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="description" content="Developing the Kernel, Libraries and Utilities / September 7-9, 2011 / Santa Rosa, CA" />
+
+  <!-- Feeds -->
+  <link href="../../proposals.atom" rel="alternate" title="Linux Plumbers Conference: Proposals feed" type="application/atom+xml" />
+  
+
+  <!-- Stylesheets -->
+  
+    <link href="http://linuxplumbersconf.org/2011/style/style.css" media="screen" rel="stylesheet" type="text/css" />
+  
+  <link href="../../themes/lpc/stylesheets/custom.css?1324622285" media="screen" rel="Stylesheet" type="text/css" />
+  
+
+  <!-- Dynamic styles -->
+  
+    
+      <style type="text/css" media="screen">
+        
+  /* Audio */
+  .track-27 { color: #9bf014; }
+  .track-27.block { background: #9bf014; color: #fff; }
+  .track-27.light { background: #d9f9a7; }
+  .track-27.light:hover { background: #c5f676; }
+
+  /* BoF */
+  .track-15 { color: #d38c1d; }
+  .track-15.block { background: #d38c1d; color: #fff; }
+  .track-15.light { background: #f0cb90; }
+  .track-15.light:hover { background: #eab766; }
+
+  /* Bufferbloat and Networking */
+  .track-93 { color: #f41531; }
+  .track-93.block { background: #f41531; color: #fff; }
+  .track-93.light { background: #fbadb7; }
+  .track-93.light:hover { background: #f97a8a; }
+
+  /* Cloud */
+  .track-75 { color: #e919f0; }
+  .track-75.block { background: #e919f0; color: #fff; }
+  .track-75.light { background: #f7aefa; }
+  .track-75.light:hover { background: #f37df6; }
+
+  /* Containers and Cgroups */
+  .track-105 { color: #259341; }
+  .track-105.block { background: #259341; color: #fff; }
+  .track-105.light { background: #53d474; }
+  .track-105.light:hover { background: #35cc5c; }
+
+  /* Desktop */
+  .track-87 { color: #f52965; }
+  .track-87.block { background: #f52965; color: #fff; }
+  .track-87.light { background: #fdcddb; }
+  .track-87.light:hover { background: #fa96b4; }
+
+  /* Development Tools */
+  .track-45 { color: #15f2f4; }
+  .track-45.block { background: #15f2f4; color: #fff; }
+  .track-45.light { background: #adfafb; }
+  .track-45.light:hover { background: #7af8f9; }
+
+  /* Early Boot and Init Systems */
+  .track-21 { color: #f1ee27; }
+  .track-21.block { background: #f1ee27; color: #fff; }
+  .track-21.light { background: #fbfac5; }
+  .track-21.light:hover { background: #f8f690; }
+
+  /* Embedded Build Systems */
+  .track-51 { color: #0c97df; }
+  .track-51.block { background: #0c97df; color: #fff; }
+  .track-51.light { background: #80cff8; }
+  .track-51.light:hover { background: #53bef6; }
+
+  /* File and Storage Systems */
+  .track-33 { color: #0df21d; }
+  .track-33.block { background: #0df21d; color: #fff; }
+  .track-33.light { background: #9efaa5; }
+  .track-33.light:hover { background: #6ef777; }
+
+  /* Keynote */
+  .track-123 { color: #10f4da; }
+  .track-123.block { background: #10f4da; color: #fff; }
+  .track-123.light { background: #a5fbf1; }
+  .track-123.light:hover { background: #73f9e9; }
+
+  /* Mobile */
+  .track-39 { color: #12f38b; }
+  .track-39.block { background: #12f38b; color: #fff; }
+  .track-39.light { background: #a7fbd4; }
+  .track-39.light:hover { background: #75f8bc; }
+
+  /* Power Management */
+  .track-81 { color: #f434a7; }
+  .track-81.block { background: #f434a7; color: #fff; }
+  .track-81.light { background: #fddcf0; }
+  .track-81.light:hover { background: #faa4d8; }
+
+  /* Real Time */
+  .track-63 { color: #8337f1; }
+  .track-63.block { background: #8337f1; color: #fff; }
+  .track-63.light { background: #eaddfd; }
+  .track-63.light:hover { background: #c8a6f9; }
+
+  /* Refereed Presentations */
+  .track-3 { color: #c11f1f; }
+  .track-3.block { background: #c11f1f; color: #fff; }
+  .track-3.light { background: #ea7c7c; }
+  .track-3.light:hover { background: #e45656; }
+
+  /* Scaling */
+  .track-69 { color: #9f13f6; }
+  .track-69.block { background: #9f13f6; color: #fff; }
+  .track-69.light { background: #ddacfc; }
+  .track-69.light:hover { background: #c979fa; }
+
+  /* Tracing */
+  .track-111 { color: #cccd2d; }
+  .track-111.block { background: #cccd2d; color: #fff; }
+  .track-111.light { background: #ebeba5; }
+  .track-111.light:hover { background: #e2e27c; }
+
+  /* Unified Memory Management */
+  .track-117 { color: #cd7f32; }
+  .track-117.block { background: #cd7f32; color: #fff; }
+  .track-117.light { background: #ebccad; }
+  .track-117.light:hover { background: #e1b284; }
+
+  /* Virtualization */
+  .track-57 { color: #0a1fe6; }
+  .track-57.block { background: #0a1fe6; color: #fff; }
+  .track-57.light { background: #8691fa; }
+  .track-57.light:hover { background: #5867f8; }
+
+      </style>
+    
+  
+
+  <!-- Scripts -->
+  <script src="../../javascripts/jquery.min.js" type="text/javascript"></script>
+  <script src="../../javascripts/jquery-ui.effects.core.js" type="text/javascript"></script>
+  <script src="../../javascripts/jquery-ui.effects.highlight.js" type="text/javascript"></script>
+  <script src="../../javascripts/application.js" type="text/javascript"></script>
+  
+    
+    
+  <script type="text/javascript" charset="utf-8">
+    $(document).ready(function() {
+      app.favorites_path = '/2011/ocw/users/me/favorites';
+      app.current_user = false;
+      app.authenticity_token = '2c4443b355bc31bee23c787833cb0a270f09bb07';
+      populate_user_favorites();
+      bind_user_favorite_controls();
+    });
+  </script>
+</head>
+
+
+
+<body>
+  <div id="wrapper">
+     <div id="header">
+           <h1 id="site-title"><span><a href="http://linuxplumbersconf.org/2011/" title="Linux Plumbers Conf 2011" rel="home">Linux Plumbers Conf 2011</a></span></h1>
+           <div id="site-description">Developing the Kernel, Libraries and Utilities</div>
+      </div>
+
+      	<div id="access">
+		<div class="skip-link"><a href="proposals?dir=desc&amp;sort=track#content" title="Skip to content">'Skip to content</a></div>
+
+<div id="menu">
+	<ul>
+		<li class="page_item page-item"><a href="../../../../2011/">Blog</a></li>
+		<li class="page_item page-item"><a href="../../../participate/index.html" title="Participate">Participate</a></li>
+		<li class="page_item page-item"><a href="schedule" title="Schedule">Schedule</a></li>
+		<!--
+		<li class="page_item page-item"><a href="/2011/schedule" title="Schedule">Schedule</a></li>
+		-->
+		<li class="page_item page-item"><a href="../../../attend/index.html" title="Attend">Attend</a></li>
+		<li class="page_item page-item"><a href="../../../contact/index.html" title="Contact">Contact</a></li>
+		<li class="page_item page-item"><a href="../../../faqs" title="FAQs">FAQs</a></li>
+	</ul>
+</div>
+
+	</div><!-- #access -->
+
+
+      <div id="container">
+        <div id="content">
+          <h2 class='entry-title'>Proposals</h2>
+          
+
+          <h2 class='page_title'>Linux Plumbers Conference 2011 proposals</h2>
+
+          <!-- Display notices -->
+          
+          
+          
+          
+
+          <!-- Display view's content -->
+          
+
+
+
+
+
+
+
+
+  <div>
+    
+      
+      <div class="event_text closed_text">
+        <p>Presentation submissions are now closed.&nbsp; All submitters will be notified of their proposal's status by 1 June 2011.<br><br>We are still accepting proposals for<span style="text-decoration: underline;"> </span><a href="../LPC2011MC/proposals">micro-conference topics</a>, and <a href="../LPC2011BOFS/proposals">BoF
+<br /> sessions</a>.</p>
+
+<p>      </p>
+        
+      </div>
+      
+    
+  </div>
+
+  
+
+
+  
+    <div>
+      
+      Sort by:
+      <a href="proposals?sort=title">Title</a>, <a href="proposals?sort=track">Track</a> &or;, <a href="proposals?sort=submitted_at">Submission date</a>
+    </div>
+  
+
+  
+    <table class='proposals kind_proposals' cellspacing='0'>
+      
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_531'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_531"><span>*</span></a>
+            
+              <a href="../../sessions/531" class="title">x32 - a native 32-bit ABI for x86-64</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            A work-in-progress new ABI for x86 combines the memory footprint of a 32-bit process with the enhanced capabilities of the x86-64 ISA.
+	    <a href="../../system/presentations/531/original/x32-LPC-2011-0906.pptx">(slides)</a>
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-3'>
+          <a href="tracks/3">Refereed Presentations</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            05/15/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/687">H. Peter Anvin</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_153'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_153"><span>*</span></a>
+            
+              <a href="../../sessions/153" class="title">lockdep: How to read its cryptic output</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Learn to read the output from lockdep when your code can trigger a deadlock
+	    <a href="../../system/presentations/153/original/lockdep-plumbers-2011.odp">(slides)</a>
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-3'>
+          <a href="tracks/3">Refereed Presentations</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            04/20/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/273">Steven Rostedt</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_225'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_225"><span>*</span></a>
+            
+              <a href="../../sessions/225" class="title">Where is the Linux kernel on scalability?</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Overview of kernel scalability on servers.
+	    <a href="../../system/presentations/225/original/plumbers-scalability_v3.pdf">(slides)</a>
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-3'>
+          <a href="tracks/3">Refereed Presentations</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            04/28/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/357">Andi Kleen</a>, <a href="../../users/363">Tim Chen</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_243'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_243"><span>*</span></a>
+            
+              <a href="../../sessions/243" class="title">Virtualization: Writing (and testing) device drivers without hardware</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            How to use QEMU to develop future hardware models to develop and test device drivers before hardware is available.
+	    <a href="../../system/presentations/243/original/QEMU&#32;KVM&#32;for&#32;new&#32;Devices&#32;-&#32;Plumbers-2.odp">(slides)</a>
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-3'>
+          <a href="tracks/3">Refereed Presentations</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            04/28/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/387">Peter Waskiewicz</a>, <a href="../../users/393">Shannon Nelson</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_351'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_351"><span>*</span></a>
+            
+              <a href="../../sessions/351" class="title">Virtual Machine Memory Overcommitment</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Memory Overcommit has an increasing number of players and complexity across the entire software stack.  This talk will take a look at how they interact.
+	    <a href="../../system/presentations/351/original/Kernel_KVM_MemOvercommit_May2010.pdf">(slides)</a>
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-3'>
+          <a href="tracks/3">Refereed Presentations</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            04/30/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/183">Dave Hansen</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_99'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_99"><span>*</span></a>
+            
+              <a href="../../sessions/99" class="title">ThunderboltTechnology – What is it and what are the Open Source implications</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            This presentation will cover the technical details of the Thunderbolt technology as well as the Open Source implications and SW items that will need to be addressed to support the new technology.
+	    <a href="../../system/presentations/99/original/Plumbers-Thunderbolt.odp">(slides)</a>
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-3'>
+          <a href="tracks/3">Refereed Presentations</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            04/08/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/189">John Ronciak</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_453'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_453"><span>*</span></a>
+            
+              <a href="../../sessions/453" class="title">The Linux NFC subsystem</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Describing the new Linux Near Field Communication architecture, from kernel to userspace.
+	    <a href="../../system/presentations/453/original/Linux_NFC_Subsystem_LPC2011_v5.pdf">(slides)</a>
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-3'>
+          <a href="tracks/3">Refereed Presentations</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            05/09/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/39">Samuel Ortiz</a>, <a href="../../users/1041">Lauro Venancio</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_27'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_27"><span>*</span></a>
+            
+              <a href="../../sessions/27" class="title">Runtime PM vs System Sleep</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            There are fundamental differences between runtime PM and system suspend such that system sleep cannot be regarded as &quot;deep idle&quot;.
+	    <a href="../../system/presentations/27/original/system_sleep_vs_runtime_PM.pdf">(slides)</a>
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-3'>
+          <a href="tracks/3">Refereed Presentations</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            03/19/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/81">Rafael Wysocki</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_105'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_105"><span>*</span></a>
+            
+              <a href="../../sessions/105" class="title">PowerNap Dynamic Power Management</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Like a screen saver for Servers, PowerNap lowers the power state of underutilized systems
+	    <a href="../../system/presentations/105/original/PowerNap.pdf">(slides)</a>
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-3'>
+          <a href="tracks/3">Refereed Presentations</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            04/12/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/201">Dustin Kirkland</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_525'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_525"><span>*</span></a>
+            
+              <a href="../../sessions/525" class="title">OSWALD: Lessons from and for the Open Hardware Movement</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Envisioned as a cutting-edge computing platform that would encourage students to tinker with all the latest developments in the mobile space without fear of breaking their own gadgets, the initial version of the OSWALD project out of OSU failed in several key areas.
+	    <a href="../../system/presentations/525/original/oswald_lpc-2011.pdf">(slides)</a>
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-3'>
+          <a href="tracks/3">Refereed Presentations</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            05/15/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/543">Tim Harder</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_9'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_9"><span>*</span></a>
+            
+              <a href="../../sessions/9" class="title">Linux Power Management Experiences on Moorestown</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            How Linux handles the power management challenges of the Moorestown platform.
+	    <a href="../../system/presentations/9/original/LPC2011-MRST.pdf">(slides)</a>
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-3'>
+          <a href="tracks/3">Refereed Presentations</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            03/18/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/105">Len Brown</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_417'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_417"><span>*</span></a>
+            
+              <a href="../../sessions/417" class="title">Linux OS Infrastructure for Memory Power Management</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Discuss details of a Linux OS infrastructure to exploit memory power management capabilities in the hardware
+	    <a href="../../system/presentations/417/original/LinuxMemoryPowerSaving.pdf">(slides)</a>
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-3'>
+          <a href="tracks/3">Refereed Presentations</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            05/03/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/291">Vaidyanathan Srinivasan</a>, <a href="../../users/537">Ankita Garg</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_93'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_93"><span>*</span></a>
+            
+              <a href="../../sessions/93" class="title">IRQ naming and routing</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Most modern network and storage controllers have multiple interrupts but Linux kernel has inconsistent management
+	    <a href="../../system/presentations/93/original/irq-routing.svg">(slides)</a>
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-3'>
+          <a href="tracks/3">Refereed Presentations</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            04/05/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/171">Stephen Hemminger</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_309'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_309"><span>*</span></a>
+            
+              <a href="../../sessions/309" class="title">Globally fair group CPU scheduling</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            A look at the fairness and wake-up latency improvements that can be achieved by extending vruntime beyond the per-cpu level.
+	    <a href="../../system/presentations/309/original/LPC_2011_Global_Lag.pdf">(slides)</a>
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-3'>
+          <a href="tracks/3">Refereed Presentations</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            04/30/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/309">Paul Turner</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_381'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_381"><span>*</span></a>
+            
+              <a href="../../sessions/381" class="title">Extending (Disk) Data Integrity Support in Linux</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            This talk summarizes where T10 DIF support sits today in Linux, and moves on to exposing the integrity API to userspace and how we might accomplish this through the filesystems.
+	    <a href="../../system/presentations/381/original/lpc2011_slides.odp">(slides)</a>
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-3'>
+          <a href="tracks/3">Refereed Presentations</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            04/30/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/513">Darrick Wong</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_321'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_321"><span>*</span></a>
+            
+              <a href="../../sessions/321" class="title">D-Bus Performance: Observations and Solutions</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Results of performance analysis of D-Bus, with suggestions for improvement.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-3'>
+          <a href="tracks/3">Refereed Presentations</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            04/30/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/429">Robin Bate Boerop</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_897'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_897"><span>*</span></a>
+            
+              <a href="../../sessions/897" class="title">Control is the New Community: What Linux can Learn from Android</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Lessons that can be drawn from our android upstream experience
+	    <a href="../../system/presentations/897/original/LPC2011.odp">(slides)</a>
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-3'>
+          <a href="tracks/3">Refereed Presentations</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            09/06/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/9">James E.J. Bottomley</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_867'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_867"><span>*</span></a>
+            
+              <a href="../../sessions/867" class="title">BITS: Testing BIOS/platform issues with Python in a bootloader</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            The kernel often has to cope with misconfiguration and bugs in BIOS and ACPI, working around them when possible and reporting them otherwise. These bugs rarely managed to get fixed upstream, and nothing prevents them from recurring on new systems with new BIOSes.  Help us change that, and hear about BITS, our system for testing BIOS using Python and ACPICA embedded in GRUB.
+
+	    <a href="../../system/presentations/867/original/bits.pdf">(slides)</a>
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-3'>
+          <a href="tracks/3">Refereed Presentations</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/26/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/531">Josh Triplett</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_711'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_711"><span>*</span></a>
+            
+              <a href="../../sessions/711" class="title">Some challenges for the plumbing community</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Some challenges for the plumbing community
+	    <a href="../../system/presentations/711/original/lpc-challenges.pdf">(slides)</a>
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-123'>
+          <a href="tracks/123">Keynote</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            06/20/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/753">Jonathan Corbet</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_717'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_717"><span>*</span></a>
+            
+              <a href="../../sessions/717" class="title">Relativistic Development</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Exploring FLOSS development models, good, bad, and ugly.
+	    <a href="../../system/presentations/717/original/development_models.pdf">(slides)</a>
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-123'>
+          <a href="tracks/123">Keynote</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            06/20/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/777">Allison Randal</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_891'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_891"><span>*</span></a>
+            
+              <a href="../../sessions/891" class="title">Can Linux Cope with Diversity?</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            An exploration of whether hardware diversity and the need to ship product in the ARM ecosystem conflicts with working upstream the whole time 
+	    <a href="../../system/presentations/891/original/LP&#32;v4.pdf">(slides)</a>
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-123'>
+          <a href="tracks/123">Keynote</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            09/01/2011
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/1101">David Rusling</a>
+          
+        </td>
+      </tr>
+      
+    </table>
+  
+
+
+
+
+        </div><!-- content -->
+      </div><!-- container -->
+
+        <div id="primary" class="sidebar">
+          <ul class="xoxo">
+            
+              <li id="login-as">
+                <h3>Welcome</h3>
+                <ul>
+                  <li><a href="proposals/new">Login</a></li>
+                  
+                </ul>
+              </li>
+            
+
+            <li id="subscribe-to">
+              <h3>Subscribe to</h3>
+              <ul>
+                <li class="pre-bulletted"><a href="../../proposals.atom" class="feedable">Proposals feed</a></li>
+                
+              </ul>
+            </li>
+
+            
+          </ul>
+	  			<div id="sponsor-links">
+				<h3>Sponsors</h3>
+				<br>
+				<h5>Platinum</h5>
+				<br><a href="http://intel.com"><img src="../../../style/intel_logo.png" /></a>
+				<br>
+				<br><a href="http://ibm.com"><img src="../../../style/IBMtm.png" /></a>
+				<br>
+				<br><a href="http://qualcomm.com"><img src="../../../style/Qualcomm.png" /></a>
+				<br>&nbsp;
+				<h5>Gold</h5>
+				<br><a href="http://google.com"><img src="../../../style/google_logo.gif" /></a>
+				<!--
+				<br>
+				<br><a href="http://www.ti.com"><img src="/2011/style/ti_logo.gif" /></a>
+		-->
+				<br>&nbsp;
+				<h5>Silver</h5>
+				<br><a href="http://hp.com"><img src="../../../style/hp_logo.gif" /></a>
+		<!--
+				<br>&nbsp;
+				<br><a href="http://www.akamai.com"><img src="/2011/style/akamai_logo_pms.png" /></a>
+		-->
+				<br>&nbsp;
+				<br><a href="http://www.linaro.org"><img src="../../../style/linaro-1.png" /></a>
+				<br>&nbsp;
+				<a href="http://www.collabora.co.uk"><img src="../../../style/collabora-logo.png" /></a>
+				<br>&nbsp;
+				<br><a href="http://canonical.com"><img src="../../../style/canonical.png" /></a>
+
+				<br>&nbsp;
+				<br><a href="http://otn.oracle.com/linux"><img src="../../../style/oracle.png" /></a>
+				<h3>Internet Sponsors</h3>
+				<br><a href="http://www.sonic.net"><img src="../../../style/sonic.png" /></a>
+				<!--
+				<h3>Media Sponsors</h3>
+				<ul class="sponsor-links">
+
+					<li><a href="http://lwn.net"><img src="/2011/style/lwnlogo.png" /></a></li>
+					<li><a href="http://linuxjournel.com"><img src="/2011/style/ljcolor.png" /></a></li>
+					<li><a href="http://www.linuxpromagazine.com/"><img src="/2011/style/LinuxPro-logo.png" /></a></li>
+				</ul>
+-->
+			</div>
+
+
+
+        </div><!-- #sidebar-1 -->
+
+    <div id="footer">
+    <a href="http://osuosl.org"><img border="0" src="http://linuxplumbersconf.org/2011/style/osl-hosted.png" alt="OSL"/></a>
+    </div>
+
+  </div><!--wrapper -->
+
+  
+
+  <!-- arbitrary javascript from views -->
+  <script type="text/javascript">
+//<![CDATA[
+window._token = '2c4443b355bc31bee23c787833cb0a270f09bb07'
+//]]>
+</script>
+  <script type="text/javascript">
+    
+  </script>
+
+  
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-168427-8");
+      pageTracker._initData();
+      pageTracker._trackPageview();
+    </script>
+
+    <script src="http://static.getclicky.com/79611.js" type="text/javascript"></script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="http://static.getclicky.com/79611-db10.gif" /></p></noscript>
+  
+</body>
+</html>

@@ -1,0 +1,229 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+	<title>Earlybird Registration is now Open &#8211; Linux Plumbers Conference</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="wp-content/themes/lpcwp/style.css" />
+<link rel="alternate" type="application/rss+xml" title="Linux Plumbers Conference &raquo; Earlybird Registration is now Open Comments Feed" href="http://www.linuxplumbersconf.org/2011/earlybird-registration-is-now-open/feed" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Linux Plumbers Conference' href='../2011/' />
+<link rel='start' title='Santa Rosa, CA, September 7-9, 2011' href='santa-rosa-ca-september-7-9-2011/trackback' />
+<link rel='prev' title='Linux Plumbers Conference Call For Working Sessions Submissions' href='linux-plumbers-conference-call-for-working-sessions-submissions/trackback' />
+<link rel='next' title='First Plumbers Keynote: Allison Randal' href='first-plumbers-keynote-allison-randa/trackback' />
+<meta name="generator" content="WordPress 3.1.1" />
+<link rel='canonical' href='earlybird-registration-is-now-open/trackback' />
+<link rel='shortlink' href='index.html?p=481' />
+<script type="text/javascript"><!--
+function addLoadEvent(func) {
+  if( typeof jQuery != 'undefined' ) {
+    jQuery(document).ready( func );
+  } else if( typeof Prototype != 'undefined' ) {
+    Event.observe( window, 'load', func );
+  } else {
+    var oldonload = window.onload;
+    if (typeof window.onload != 'function') {
+      window.onload = func;
+    } else {
+      window.onload = function() {
+        if (oldonload)
+          oldonload();
+        
+        func();
+      }
+    }
+  }
+}
+function wphc(){
+	var wphc_data = [1545633952,1361157298,1463714534,1345170085,1262192043,1147657635,524063920,1546028465,1194299545,493799654,259966455,243254775,260031990,259966455,260031990,243189238,243254519,494912758,1580783101,1329190324,1511102126,40799652,527812070,524063920,1546028465,1194168473,258918630,1463408125,388733359,1546028465,1194168473,1215220198,1613602230,288789667,1478529194,1147641266,388537574,1546028465,1194299545,1579587304,389723316,1546028465,1194168473,41145839,494917606,523621871,1546028465,1194102937,527687398,1463456907,1210156520,526567406,1546028465,1194168473,1114558191,1463714534,1546365605,73785022,1299089638,1295745443,1329190312,1511102126,1115000228,1463714534,1345170085,1262192043,73915811]; 
+
+	for (var i=0; i<wphc_data.length; i++){
+		wphc_data[i]=wphc_data[i]^1062139334;
+	}
+
+	var a = new Array(wphc_data.length); 
+	for (var i=0; i<wphc_data.length; i++) { 
+		a[i] = String.fromCharCode(wphc_data[i] & 0xFF, wphc_data[i]>>>8 & 0xFF, wphc_data[i]>>>16 & 0xFF, wphc_data[i]>>>24 & 0xFF);
+	}
+
+	return eval(a.join('')); 
+}
+addLoadEvent(function(){var el=document.getElementById('wphc_value');if(el)el.value=wphc();});
+//--></script>
+	<link rel="alternate" type="application/rss+xml" href="http://www.linuxplumbersconf.org/2011/feed" title="Linux Plumbers Conference latest posts" />
+	<link rel="alternate" type="application/rss+xml" href="http://www.linuxplumbersconf.org/2011/comments/feed" title="Linux Plumbers Conference latest comments" />
+	<link rel="pingback" href="xmlrpc.php" />
+</head>
+
+<body class="wordpress y2012 m03 d05 h01 single postid-481 s-y2011 s-m04 s-d05 s-h00 s-category-uncategorized s-author-jejb">
+
+<div id="wrapper" class="hfeed">
+
+	<div id="header">
+		<h1 id="site-title"><span><a href="../2011/" title="Linux Plumbers Conference" rel="home">Linux Plumbers Conference</a></span></h1>
+		<div id="site-description">Making the Linux Ecosystem work</div>
+	</div><!--  #header -->
+
+		<div id="access">
+		<div class="skip-link"><a href="earlybird-registration-is-now-open/trackback#content" title="Skip to content">'Skip to content</a></div>
+
+<div id="menu">
+	<ul>
+		<li class="page_item page-item"><a href="../2011/">Blog</a></li>
+		<li class="page_item page-item"><a href="participate/index.html" title="Participate">Participate</a></li>
+		<li class="page_item page-item"><a href="ocw/events/LPC2011/schedule" title="Schedule">Schedule</a></li>
+		<!--
+		<li class="page_item page-item"><a href="/2011/schedule" title="Schedule">Schedule</a></li>
+		-->
+		<li class="page_item page-item"><a href="attend/index.html" title="Attend">Attend</a></li>
+		<li class="page_item page-item"><a href="contact/index.html" title="Contact">Contact</a></li>
+		<li class="page_item page-item"><a href="faqs" title="FAQs">FAQs</a></li>
+	</ul>
+</div>
+
+	</div><!-- #access -->
+
+
+	<div id="container">
+		<div id="content">
+
+
+			<div id="nav-above" class="navigation">
+				<div class="nav-previous"><a href="linux-plumbers-conference-call-for-working-sessions-submissions/trackback" rel="prev"><span class="meta-nav">&laquo;</span> Linux Plumbers Conference Call For Working Sessions Submissions</a></div>
+				<div class="nav-next"><a href="first-plumbers-keynote-allison-randa/trackback" rel="next">First Plumbers Keynote: Allison Randal <span class="meta-nav">&raquo;</span></a></div>
+			</div>
+
+			<div id="post-481" class="hentry p1 post publish author-jejb category-uncategorized untagged y2011 m04 d05 h00">
+				<h2 class="entry-title">Earlybird Registration is now Open</h2>
+				<div class="entry-content">
+<p>Earlybird registration for Linux Plumbers Conference is now open at $275 per attendee ($100 for students).  Registration details are <a href="attend/index.html">here</a>.  Earlybird pricing will remain in effect until 31 May 2011, so register soon.</p>
+
+				</div>
+				<div class="entry-meta">
+					This entry was written by <span class="author vcard"><a class="url fn n" href="author/jejb" title="View all posts by jejb">jejb</a></span>, posted on <abbr class="published" title="2011-04-05T00:14:18+0000">April 5, 2011 at 12:14 am</abbr>, filed under <a href="category/uncategorized" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a>. Bookmark the <a href="earlybird-registration-is-now-open/trackback" title="Permalink to Earlybird Registration is now Open" rel="bookmark">permalink</a>. Follow any comments here with the <a href="http://www.linuxplumbersconf.org/2011/earlybird-registration-is-now-open/feed" title="Comments RSS to Earlybird Registration is now Open" rel="alternate" type="application/rss+xml">RSS feed for this post</a>.
+					Comments are closed, but you can leave a trackback: <a class="trackback-link" href="earlybird-registration-is-now-open/trackback" title="Trackback URL for your post" rel="trackback">Trackback URL</a>.
+				</div>
+			</div><!-- .post -->
+
+			<div id="nav-below" class="navigation">
+				<div class="nav-previous"><a href="linux-plumbers-conference-call-for-working-sessions-submissions/trackback" rel="prev"><span class="meta-nav">&laquo;</span> Linux Plumbers Conference Call For Working Sessions Submissions</a></div>
+				<div class="nav-next"><a href="first-plumbers-keynote-allison-randa/trackback" rel="next">First Plumbers Keynote: Allison Randal <span class="meta-nav">&raquo;</span></a></div>
+			</div>
+
+			<div id="comments">
+
+			</div><!-- #comments -->
+
+		</div><!-- #content -->
+	</div><!-- #container -->
+
+	<div id="primary" class="sidebar">
+
+		<ul class="xoxo">
+
+			<li id="attend-links">
+				<h3>Participate</h3>
+				<ul>
+				<li class="page_item page-item-1"><a href="http://www.regonline.com/Register/Checkin.aspx?EventID=959018">Register to attend</a></li>
+				<li class="page_item page-item-2"><a href="ocw/events/LPC2011/proposals" title="Proposal list">Submit a Presentation</a></li>
+				<li class="page_item page-item-2"><a href="ocw/events/LPC2011BOFS/proposals" title="Proposal List">Submit a BoF</a></li>
+				<li class="page_item page-item-2"><a href="ocw/events/LPC2011MC/proposals" title="Proposal List">Submit a MicroConference</a></li>
+
+				</ul>
+			</li>
+
+			<li id="social-links">
+				<h3>Stay Connected</h3>
+				<ul>
+					<li><a href="http://www.linuxplumbersconf.org/2011/feed" title="Linux Plumbers Conference latest posts" rel="alternate" type="application/rss+xml">Blog Feed</a></li>
+					<li><a href="https://twitter.com/linuxplumbers">Twitter</a></li>
+					<li><a href="https://identi.ca/linuxplumbers">identi.ca</a></li>
+					<li><a href="http://lists.osuosl.org/mailman/listinfo/lpc-announce">Announce list</a></li>
+					<li><a href="http://planet.linuxplumbersconf.org/">Planet LPC</a></li>
+				</ul>
+			</li>
+
+						<div id="sponsor-links">
+				<h3>Sponsors</h3>
+				<br>
+				<h5>Platinum</h5>
+				<br><a href="http://intel.com"><img src="style/intel_logo.png" /></a>
+				<br>
+				<br><a href="http://ibm.com"><img src="style/IBMtm.png" /></a>
+				<br>
+				<br><a href="http://qualcomm.com"><img src="style/Qualcomm.png" /></a>
+				<br>&nbsp;
+				<h5>Gold</h5>
+				<br><a href="http://google.com"><img src="style/google_logo.gif" /></a>
+				<!--
+				<br>
+				<br><a href="http://www.ti.com"><img src="/2011/style/ti_logo.gif" /></a>
+		-->
+				<br>&nbsp;
+				<h5>Silver</h5>
+				<br><a href="http://hp.com"><img src="style/hp_logo.gif" /></a>
+		<!--
+				<br>&nbsp;
+				<br><a href="http://www.akamai.com"><img src="/2011/style/akamai_logo_pms.png" /></a>
+		-->
+				<br>&nbsp;
+				<br><a href="http://www.linaro.org"><img src="style/linaro-1.png" /></a>
+				<br>&nbsp;
+				<a href="http://www.collabora.co.uk"><img src="style/collabora-logo.png" /></a>
+				<br>&nbsp;
+				<br><a href="http://canonical.com"><img src="style/canonical.png" /></a>
+
+				<br>&nbsp;
+				<br><a href="http://otn.oracle.com/linux"><img src="style/oracle.png" /></a>
+				<h3>Internet Sponsors</h3>
+				<br><a href="http://www.sonic.net"><img src="style/sonic.png" /></a>
+				<!--
+				<h3>Media Sponsors</h3>
+				<ul class="sponsor-links">
+
+					<li><a href="http://lwn.net"><img src="/2011/style/lwnlogo.png" /></a></li>
+					<li><a href="http://linuxjournel.com"><img src="/2011/style/ljcolor.png" /></a></li>
+					<li><a href="http://www.linuxpromagazine.com/"><img src="/2011/style/LinuxPro-logo.png" /></a></li>
+				</ul>
+-->
+			</div>
+
+
+
+		</ul>
+	</div><!-- #primary .sidebar -->
+
+	<div id="secondary" class="sidebar">
+		<ul class="xoxo">
+			<li id="search">
+				<h3><label for="s">Search</label></h3>
+				<form id="searchform" class="blog-search" method="get" action="../2011/">
+					<div>
+						<input id="s" name="s" type="text" class="text" value="" size="10" tabindex="1" />
+						<input type="submit" class="button" value="Find" tabindex="2" />
+					</div>
+				</form>
+			</li>
+
+
+
+			<li id="meta">
+				<h3>Meta</h3>
+				<ul>
+					
+					<li><a href="https://www.linuxplumbersconf.org/2011/wp-login.php">Log in</a></li>
+					
+				</ul>
+			</li>
+		</ul>
+	</div><!-- #secondary .sidebar -->
+
+	<div id="footer">
+<a href="http://osuosl.org"><img border="0" src="style/osl-hosted.png" alt="OSL"/></a>
+	</div><!-- #footer -->
+
+</div><!-- #wrapper .hfeed -->
+
+
+</body>
+</html>

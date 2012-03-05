@@ -1,0 +1,280 @@
+[The slides are at the bottom of the file]
+
+Good afternoon, my name is Dan Carpenter.  I work for Oracle
+in Nairobi Kenya.  I wrote a tool called Smatch and I'm going
+to be talking about it today.  It's a static analysis tool
+for C and I use it on the Linux kernel.
+
+Smatch is similar to Coccinelle which many of you have seen.
+The main difference is that Coccinelle can write patches.
+Perhaps the best way to understand what Smatch does is to
+think about those people on the mailing lists, they have a
+lot of opinions and they complain a lot, but they don't send
+patches.  That's what Smatch does.
+
+The other main difference is that in Coccinelle has its
+own language for writing checks but in Smatch you write it
+in C.  People are intimidated by this and they say "I'm not
+a compiler person, I haven't read the Dragon Book." but
+actually writing Smatch checks is easy.  Let's take a look.
+
+This is a small check for finding dereferencing freed
+variable bugs.
+
+In this check variables can either be freed or OK.
+
+This slide shows how we hook those three functions into
+Smatch.  If we call kfree() then set the state to &freed,
+whenever a variable with a state is modified set it to
+&ok, and whenever anything is dereferenced check whether
+it's &freed.
+
+If we hit a call to kfree() then we set the state of the
+first argument to &freed.
+
+If the variable gets reassigned then we set the variable
+to &ok.
+
+If we dereference a variable, then we check whether we've
+set a state for that variable, and if it's possible for
+that variable to be freed.  If it is, we print a warning
+message and set the state to &ok so that it only complains
+once.
+
+Simple.  Now that I've explained all the practical bits in
+detail, I want to talk briefly about the theory side.
+
+Smatch has a debugging feature where if it hits a call
+to __smatch_value(), it tries to print print out the
+possible values for a variable.
+
+Smatch does code flow analysis starting from the top of
+each function reading downwards.  If you hit a branch
+statement, you can either take the true path or the
+false path.  Then you merge back together.
+
+Everything about code flow breaks down into branching
+and merging.
+
+So here we hit a branch, and on the true side we set x and
+y to 1 and 3 and on the false side we set x and y to 2 and
+10.  At the end they merge together and y can be either 3
+or 10.  If x is 2 though then y has to be 10.  That
+relationship is called an implication in Smatch.
+
+We test this simple thing, and it works.
+
+The Smatch implementation of implications is pretty spotty
+and incomplete, but in theory anything that a human can tell
+about a code flow, a computer should also be able to do.
+It's just a kind of math and computers love math.  It's their
+favorite thing.
+
+I'm pretty much the only author and user of Smatch, so it's
+not going to be as good or polished as the comercial offerings.
+Here are some things which are wrong.
+
+Loops aren't handled correctly.  Smatch just does one pass
+through.  There is some code to address this but it's not
+finished and it's not turned on by default.
+
+Sparse understands memory layout, but Smatch doesn't use that.
+So sometimes variables change but Smatch isn't aware and it
+leads to a lot of false positives.
+
+Cross function analysis could maybe be done with sqlite.  Just
+put the information about how the function is called and the
+return values into a database.
+
+Not enough focus on user space is self explanitory.
+
+These are solvable things obviously.
+
+How does Smatch stack up in the real world.
+
+Lots of false positives.  As we fix bugs the ratio of bugs to
+false positives gets worse.
+
+In the 3.1-rc4 Linus singled out my iscsi-target fixes as
+something that no one cares about.  This hurts my feelings of
+course, but it's true that most of the non-false-positive bugs
+are minor.
+
+Some few bugs are worth fixing.  Here is the famous tun.c bug
+from a while back.  It was more famous because the exploit to
+use it combined three bugs to escalate privaleges.  But to me
+it's sad because it was preventable.
+
+I wish I could tell you that bug wouldn't happen in a modern
+kernel, but actually it could.  We introduce quite a few of
+these dereference before check bugs, and most of the time the
+dereference is OK and the check should be removed.  I've
+probably removed more bogus NULL checks than anyone but I
+don't enjoy it.  Recently I wrote a script to automatically
+email people who introduce these bugs so hopefully it will
+get better.
+
+Here is a bug where the author wrote spin_lock() instead of
+spin_unlock().  Probably it's a cut and paste bug.  It should
+have been caught in testing because it is an instant hang,
+but it made it into a shipping kernel.  These days we
+wouldn't ship that.  We catch a couple of these per kernel
+release.
+
+There are other fixes too.  These are off-by-one fixes that
+went into the 3.1 kernel.
+
+People say that if you write in C then you're always going
+to have certain kinds of bugs, like buffer overflows.  But
+actually the information is mostly there to prevent them.
+The problems in C are fixable.
+
+
+[Slide 1]
+
+Dan Carpenter
+From Oracle
+Talking about Smatch
+
+[Slide 2]
+
+STATE(freed);
+STATE(ok);
+
+[Slide 3]
+
+void check_free(int id)
+{
+	my_id = id;
+
+	add_function_hook("kfree", &match_free, NULL);
+	set_default_modification_hook(my_id, &ok_to_use);
+	add_hook(&match_dereferences, DEREF_HOOK);
+}
+
+[Slide 4]
+
+static void match_free(const char *fn,
+		struct expression *expr,
+		void *unused)
+{
+	struct expression *arg;
+
+	arg = get_argument_from_call_expr(expr->args, 0);
+	set_state_expr(my_id, arg, &freed);
+}
+
+[Slide 5]
+
+static void ok_to_use(const char *name, struct symbol *sym,
+		struct expression *expr,
+		void *unused)
+{
+	set_state(my_id, name, sym, &ok);
+}
+
+[Slide 6]
+
+static void match_dereferences(struct expression *expr)
+{
+	char *name;
+	struct sm_state *sm;
+
+	expr = expr->unop;
+
+	sm = get_sm_state_expr(my_id, expr);
+	if (!sm || !slist_has_state(sm->possible, &freed))
+		return;
+
+	name = get_variable_from_expr(expr, NULL);
+	sm_msg("error: dereferencing freed memory '%s'",
+		name);
+	set_state_expr(my_id, expr, &ok);
+	free_string(name);
+}
+
+[Slide 7]
+
+#include "check_debug.h"
+int x, y;
+int frob(void)
+{
+	if (frob()) {
+		x = 1;
+		y = 3;
+	} else {
+		x = 2;
+		y = 10;
+	}
+
+	__smatch_value("y");
+	if (x == 2)
+		__smatch_value("y");
+}
+
+test.c +13 frob(10) y = 3,10
+test.c +15 frob(12) y = 10
+
+[Slide 8]
+
+Main Limitations of Smatch
+1) Loops aren't handled properly
+2) I wrote it without knowledge of memory layout
+3) Very little cross function analysis
+4) Too exclusive focus on the kernel
+
+[Slide 9]
+
+--- a/drivers/net/tun.c
++++ b/drivers/net/tun.c
+@@ -486,12 +486,14 @@ static unsigned int tun_chr_poll(struct file *file, poll_table * wait)
+ {
+ 	struct tun_file *tfile = file->private_data;
+ 	struct tun_struct *tun = __tun_get(tfile);
+-	struct sock *sk = tun->sk;
++	struct sock *sk;
+ 	unsigned int mask = 0;
+ 
+ 	if (!tun)
+ 		return POLLERR;
+ 
++	sk = tun->sk;
++
+ 	DBG(KERN_INFO "%s: tun_chr_poll\n", tun->dev->name);
+ 
+ 	poll_wait(file, &tun->socket.wait, wait);
+
+[Slide 10]
+
+--- a/net/xfrm/xfrm_state.c
++++ b/net/xfrm/xfrm_state.c
+@@ -1615,7 +1615,7 @@ void xfrm_state_walk_done(struct xfrm_state_walk *walk)
+ 
+ 	spin_lock_bh(&xfrm_state_lock);
+ 	list_del(&walk->all);
+-	spin_lock_bh(&xfrm_state_lock);
++	spin_unlock_bh(&xfrm_state_lock);
+ }
+ EXPORT_SYMBOL(xfrm_state_walk_done);
+
+[Slide 11]
+
+5829944 w1: fix for loop in w1_f29_remove_slave()
+8849883 drm/radeon: off by one in check_reg() functions
+8440462 cfg80211: off by one in nl80211_trigger_scan()
+bca3ba7 [media] DVB: dvb_frontend: off by one in dtv_property_dump()
+8f50c7f iscsi-target: strlen() doesn't count the terminator
+ae6ff61 ALSA: asihpi - off by one in asihpi_hpi_ioctl()
+12f09cc loopback: off by one in tcm_loop_make_naa_tpg()
+
+[Slide 12]
+
+Conclusion:
+Everyone complains about C.
+It's time we did something about it.
+
+[Slide 13]
+
+http://smatch.sf.net
+smatch@vger.kernel.org
+

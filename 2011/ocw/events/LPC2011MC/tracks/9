@@ -1,0 +1,486 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+  <title>Tracks / Linux Plumbers Conference: Developing the Kernel, Libraries and Utilities / September 7-9, 2011 / Santa Rosa, CA</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="description" content="Developing the Kernel, Libraries and Utilities / September 7-9, 2011 / Santa Rosa, CA" />
+
+  <!-- Feeds -->
+  <link href="../../../proposals.atom" rel="alternate" title="Linux Plumbers Conference: Proposals feed" type="application/atom+xml" />
+  
+
+  <!-- Stylesheets -->
+  
+    <link href="http://linuxplumbersconf.org/2011/style/style.css" media="screen" rel="stylesheet" type="text/css" />
+  
+  <link href="../../../themes/lpc/stylesheets/custom.css?1324622285" media="screen" rel="Stylesheet" type="text/css" />
+  
+
+  <!-- Dynamic styles -->
+  
+    
+      <style type="text/css" media="screen">
+        
+  /* Audio */
+  .track-27 { color: #9bf014; }
+  .track-27.block { background: #9bf014; color: #fff; }
+  .track-27.light { background: #d9f9a7; }
+  .track-27.light:hover { background: #c5f676; }
+
+  /* Bufferbloat and Networking */
+  .track-93 { color: #f41531; }
+  .track-93.block { background: #f41531; color: #fff; }
+  .track-93.light { background: #fbadb7; }
+  .track-93.light:hover { background: #f97a8a; }
+
+  /* Cloud */
+  .track-75 { color: #e919f0; }
+  .track-75.block { background: #e919f0; color: #fff; }
+  .track-75.light { background: #f7aefa; }
+  .track-75.light:hover { background: #f37df6; }
+
+  /* Containers and Cgroups */
+  .track-105 { color: #259341; }
+  .track-105.block { background: #259341; color: #fff; }
+  .track-105.light { background: #53d474; }
+  .track-105.light:hover { background: #35cc5c; }
+
+  /* Desktop */
+  .track-87 { color: #f52965; }
+  .track-87.block { background: #f52965; color: #fff; }
+  .track-87.light { background: #fdcddb; }
+  .track-87.light:hover { background: #fa96b4; }
+
+  /* Development Tools */
+  .track-45 { color: #15f2f4; }
+  .track-45.block { background: #15f2f4; color: #fff; }
+  .track-45.light { background: #adfafb; }
+  .track-45.light:hover { background: #7af8f9; }
+
+  /* Early Boot and Init Systems */
+  .track-21 { color: #f1ee27; }
+  .track-21.block { background: #f1ee27; color: #fff; }
+  .track-21.light { background: #fbfac5; }
+  .track-21.light:hover { background: #f8f690; }
+
+  /* Embedded Build Systems */
+  .track-51 { color: #0c97df; }
+  .track-51.block { background: #0c97df; color: #fff; }
+  .track-51.light { background: #80cff8; }
+  .track-51.light:hover { background: #53bef6; }
+
+  /* File and Storage Systems */
+  .track-33 { color: #0df21d; }
+  .track-33.block { background: #0df21d; color: #fff; }
+  .track-33.light { background: #9efaa5; }
+  .track-33.light:hover { background: #6ef777; }
+
+  /* Mobile */
+  .track-39 { color: #12f38b; }
+  .track-39.block { background: #12f38b; color: #fff; }
+  .track-39.light { background: #a7fbd4; }
+  .track-39.light:hover { background: #75f8bc; }
+
+  /* Power Management */
+  .track-81 { color: #f434a7; }
+  .track-81.block { background: #f434a7; color: #fff; }
+  .track-81.light { background: #fddcf0; }
+  .track-81.light:hover { background: #faa4d8; }
+
+  /* Real Time */
+  .track-63 { color: #8337f1; }
+  .track-63.block { background: #8337f1; color: #fff; }
+  .track-63.light { background: #eaddfd; }
+  .track-63.light:hover { background: #c8a6f9; }
+
+  /* Scaling */
+  .track-69 { color: #9f13f6; }
+  .track-69.block { background: #9f13f6; color: #fff; }
+  .track-69.light { background: #ddacfc; }
+  .track-69.light:hover { background: #c979fa; }
+
+  /* Tracing */
+  .track-111 { color: #cccd2d; }
+  .track-111.block { background: #cccd2d; color: #fff; }
+  .track-111.light { background: #ebeba5; }
+  .track-111.light:hover { background: #e2e27c; }
+
+  /* Unified Memory Management */
+  .track-117 { color: #cd7f32; }
+  .track-117.block { background: #cd7f32; color: #fff; }
+  .track-117.light { background: #ebccad; }
+  .track-117.light:hover { background: #e1b284; }
+
+  /* Virtualization */
+  .track-57 { color: #0a1fe6; }
+  .track-57.block { background: #0a1fe6; color: #fff; }
+  .track-57.light { background: #8691fa; }
+  .track-57.light:hover { background: #5867f8; }
+
+      </style>
+    
+  
+
+  <!-- Scripts -->
+  <script src="../../../javascripts/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../javascripts/jquery-ui.effects.core.js" type="text/javascript"></script>
+  <script src="../../../javascripts/jquery-ui.effects.highlight.js" type="text/javascript"></script>
+  <script src="../../../javascripts/application.js" type="text/javascript"></script>
+  
+    
+    
+  <script type="text/javascript" charset="utf-8">
+    $(document).ready(function() {
+      app.current_user = false;
+      app.authenticity_token = '2c4443b355bc31bee23c787833cb0a270f09bb07';
+    });
+  </script>
+</head>
+
+
+
+<body>
+  <div id="wrapper">
+     <div id="header">
+           <h1 id="site-title"><span><a href="http://linuxplumbersconf.org/2011/" title="Linux Plumbers Conf 2011" rel="home">Linux Plumbers Conf 2011</a></span></h1>
+           <div id="site-description">Developing the Kernel, Libraries and Utilities</div>
+      </div>
+
+      	<div id="access">
+		<div class="skip-link"><a href="9#content" title="Skip to content">'Skip to content</a></div>
+
+<div id="menu">
+	<ul>
+		<li class="page_item page-item"><a href="../../../../../2011/">Blog</a></li>
+		<li class="page_item page-item"><a href="../../../../participate/index.html" title="Participate">Participate</a></li>
+		<li class="page_item page-item"><a href="../../LPC2011/schedule" title="Schedule">Schedule</a></li>
+		<!--
+		<li class="page_item page-item"><a href="/2011/schedule" title="Schedule">Schedule</a></li>
+		-->
+		<li class="page_item page-item"><a href="../../../../attend/index.html" title="Attend">Attend</a></li>
+		<li class="page_item page-item"><a href="../../../../contact/index.html" title="Contact">Contact</a></li>
+		<li class="page_item page-item"><a href="../../../../faqs" title="FAQs">FAQs</a></li>
+	</ul>
+</div>
+
+	</div><!-- #access -->
+
+
+      <div id="container">
+        <div id="content">
+          <h2 class='entry-title'>Proposals</h2>
+          
+
+          <h2 class='page_title'>Tracks</h2>
+
+          <!-- Display notices -->
+          
+          
+          
+          <div class="flash" id="flash"><p class="failure">Sorry, that track doesn't exist or has been deleted.</p></div>
+
+          <!-- Display view's content -->
+          
+
+
+<div class="tracks_text">
+  <p>Tracks are used to submit suggestions for suggestions of appropriate topics for individual Microconferences.<br><br>For discussion of topic ideas, please see the <a href="http://wiki.linuxplumbersconf.org/2011:topics">Wiki<br></a><br>The
+<br /> Linux Plumbers Conference currently has room for about ten to twelve 
+<br />Microconferences, so less popular ones might not make the cut for 
+<br />inclusion in the conference proper.&nbsp; If this happens, please consider a <a href="../../LPC2011BOFS/proposals">BoF session</a> instead.
+<br />      </p>
+  
+</div>
+
+
+  <h3 class='track block track-27'><a href="27">Audio</a></h3>
+  <span class="description"><p>Audio support on Linux is currently undergoing a rapid evolution, with a growing expectation on the part of users that everything will work off the shelf with no manual configuration. This is a particular problem at the system integration level, with many diverse audio sources and sinks (both physical and software) in the system which need to be managed together to provide the functionality which end users expect.</p>
+<p>The problems are most complex in the embedded world due to both the lack of hardware standards and big developments in both the audio hardware present on embedded systems such as mobile phones and the feature sets supported at the user level.</p>
+<p>In this track we want to cover the whole audio stack, from userspace sound servers and interfaces to low-level audio driver architecture. We’ll focus on new audio features for audio production, as well as technology for the classic desktop and cover mobile platforms as well.</p>
+<p><a href="http://wiki.linuxplumbersconf.org/2011:audio">Wiki</a></p></span>
+  
+  
+
+  <h3 class='track block track-93'><a href="93">Bufferbloat and Networking</a></h3>
+  <span class="description"><p><a href="http://bufferbloat.net/">Bufferbloat</a> has become a hot topic in recent months.  For years the networking industry has been strongly focused on maximizing throughput and eliminating packet loss.  The availability of cheap <span class="caps">RAM</span> for big buffers has been an aid (or maybe a crutch) for achieving those goals.  Unfortunately, it takes time for network packets to work their way through all those buffers, and high network latency is the result.</p>
+<p>The importance of low latency in the network is often neglected or misunderstood.  But in reality, poor latency is to blame for many network woes.  These include poor <span class="caps">VOIP</span> call quality, stuttering video streams, and even many &#8220;the Internet is slow today&#8221; problems at home.  Moreover, those big, slow buffers deny <span class="caps">TCP</span> the timely feedback it needs to fight congestion in the network.  The effect is that the buffers put in place to make the network &#8220;faster&#8221; are making it slower instead!</p>
+<p>In this track we want to bring together academics, system administrators, network equipment vendors, developers of networking applications, and kernel developers at all levels of the stack from the core to the drivers.  We want to discuss topics related to bufferbloat including latency reduction, congestion control, queue management, proper network design, and related topics with the goal of making the Internet perform better for everyone.</p>
+<p><a href="http://wiki.linuxplumbersconf.org/2011:bufferbloat">wiki</a></p></span>
+  
+  
+
+  <h3 class='track block track-75'><a href="75">Cloud</a></h3>
+  <span class="description"><p>Cloud computing is a term that covers a multitude of Sins.  The specific aim of this MC session is to discuss the aspects of the Cloud problem which impinge on the low level Linux ecosystem (things like cloud filesystems, object replication, application availability, kernel support for billing infrastructures, etc.)</p>
+<p><a href="http://wiki.linuxplumbersconf.org/2011:cloud">wiki</a></p></span>
+  
+  
+
+  <h3 class='track block track-105'><a href="105">Containers and Cgroups</a></h3>
+  <span class="description"><p>Specific issues that need discussing are</p>
+<ul>
+	<li>Checkpoint/Restart</li>
+	<li>cgroup controller issues (mem and I/O)</li>
+	<li>namespaces additions (including the network one)</li>
+	<li>containerised <span class="caps">NFS</span></li>
+</ul>
+<h3>Etherpad:</h3>
+<p><a href="http://pad.ubuntu.com/plumbers-2011-virtualization">http://pad.ubuntu.com/plumbers-2011-virtualization</a> (Cgroups is at the bottom underneath Virtualization)</p>
+<h3>Presentations</h3>
+<p><a href="../../../system/presentations/831/original/LinuxPlumbers-Santa-Rosa-miniconf-2011.odp">Parallels: Checkpoint, Dcache, container in a file</a><br />
+<a href="../../../system/presentations/705/original/Control_Loops_In_Userspace.pdf">Google: Control loops in user space</a></p></span>
+  
+  
+
+  <h3 class='track block track-87'><a href="87">Desktop</a></h3>
+  <span class="description"><p>Desktop covers a multitude of sins, including graphics and AV.  This track will be discussing all of the plumbing issues involved in it</p>
+<p><a href="http://wiki.linuxplumbersconf.org/2011:desktop">wiki</a></p>
+<p>Due to a last minute speaker cancellation, we had a presentation from Rob Clark on video and overlays, which can be found here: <a href="https://wiki.linaro.org/OfficeofCTO/MemoryManagement">slides</a></p></span>
+  
+  
+
+  <h3 class='track block track-45'><a href="45">Development Tools</a></h3>
+  <span class="description"><p>The Linux kernel is one of the largest and highly configurable open source software projects.  It has hundreds of developers and these developers have a wide range of expertise.  Tools to help developers and maintainers are becoming increasingly important in the Linux development process.  Some familiar examples are git for source code management, checkpatch for enforcing coding style, and quilt for managing patches.</p>
+<p>In recent years, a number of new tools have been created to aide in various aspects of the development process.  These include tools for understanding the source code, finding various kinds of bugs, and performing source code evolutions.  This track will present some of these tools.  There will additionally be an opportunity to discuss how tool usage can be improved and what kind of tools are still needed.</p>
+<p><a href="http://wiki.linuxplumbersconf.org/2011:development_tools">Wiki</a></p></span>
+  
+  
+
+  <h3 class='track block track-21'><a href="21">Early Boot and Init Systems</a></h3>
+  <span class="description"><p>This miniconf is focused on the linux init system, improving boot speed, and init infrastructure including systemd, udev, dracut among others.</p>
+<p><a href="http://wiki.linuxplumbersconf.org/2011:early_boot_and_init_systems">Wiki</a></p></span>
+  
+  
+
+  <h3 class='track block track-51'><a href="51">Embedded Build Systems</a></h3>
+  <span class="description"><p>build environments<br />
+have been receiving more attention this year. Open Embedded, the Yocto<br />
+Project, etc. This track is to discuss how to keep these current, how they support the multitude of embedded boards,<br />
+etc.</p>
+<p><a href="http://wiki.linuxplumbersconf.org/2011:embedded_build_systems">Wiki</a></p></span>
+  
+  
+
+  <h3 class='track block track-33'><a href="33">File and Storage Systems</a></h3>
+  <span class="description"><p>he track will deal with issues around file and storage systems in Linux, from the kernel space up to user space. Getting applications to work well and get tuned properly, how to benchmark administer, etc.</p>
+<p>The track should draw developers for the various components, vendors of storage systems (both traditional storage and newer devices), kernel developers.</p>
+<p><a href="http://wiki.linuxplumbersconf.org/2011:file_and_storage_systems">Wiki</a></p></span>
+  
+  
+
+  <h3 class='track block track-39'><a href="39">Mobile</a></h3>
+  <span class="description"><p>Discussion of issues related to Mobile computing, in particular the following issues are topical:</p>
+<ul>
+	<li>the usual kernel/power usage/arm/etc fun times</li>
+	<li>significant performance issues like kdbus that matter a great deal for mobile and not a jot for desktops; we can generally get quite a few fun performance/optimisation talks out of mobile people</li>
+	<li>graphics/UI stack issues to some extent: again, projects like clutter and wayland that are a lot more critical on mobile than desktop</li>
+	<li>the higher-level side of all the relevant platforms: meego, android, bada (maybe webos?)</li>
+	<li>anything relevant to sharing between the platforms: webkit in particular comes to mind here</li>
+</ul>
+<p><a href="http://wiki.linuxplumbersconf.org/2011:mobile">Wiki</a></p></span>
+  
+  
+
+  <h3 class='track block track-81'><a href="81">Power Management</a></h3>
+  <span class="description"><p>The track will deal with issues related to power management, mostly in kernel space.  The discussion will cover various system form factors, including servers, desktop machines and mobile devices and various aspects of power management, such as <span class="caps">CPU</span> power management, I/O runtime power management, suspend/resume.  In particular, the following topics are anticipated:</p>
+<ul>
+	<li>Review of core power management changes in the kernel over the last 12 months.</li>
+	<li>Idle power usage.</li>
+	<li>Power domains and multilevel device power management.</li>
+</ul>
+<p><a href="http://wiki.linuxplumbersconf.org/2011:power_management">Wiki</a></p></span>
+  
+  
+
+  <h3 class='track block track-63'><a href="63">Real Time</a></h3>
+  <span class="description"><p>The Real-Time preemption patch started in 2004 and large parts of the development has been integrated into the mainline kernel and into the affected user space libraries. There are still parts which need to be worked on for upstream inclusion.</p>
+<p>The Real-Time track provides a discussion forum for ongoing and related work.</p>
+<p><a href="http://wiki.linuxplumbersconf.org/2011:real_time">Wiki</a></p></span>
+  
+  
+
+  <h3 class='track block track-69'><a href="69">Scaling</a></h3>
+  <span class="description"><p>Linux&#8217;s scalability has improved greatly over the past ten years, but much work remains.  Yes, the Big Kernel Lock is finally almost completely removed, but there are a number of &#8220;little kernel locks&#8221; throughout the kernel.  Some of these are being worked, for example, Nick Piggin&#8217;s work breaking up dcache_lock and d_lock, but others need help as well.</p>
+<p>But the increasing use of Linux in the embedded arena shows the need to scale down as well as up.  In fact, given the arrival of multicore embedded CPUs, Linux must scale both up and down simultaneously, preferably while still maintain good response times.</p>
+<p>This microconference will therefore look at efforts to scale up, down, and in both directions simultaneously.  Topics include:</p>
+<ul>
+	<li>What can the kernel do to help applications perform and scale better?</li>
+	<li>What can applications do to help the kernel perform and scale better?</li>
+</ul>
+<ul>
+	<li>Memory footprint:
+	<ul>
+		<li>100MB here, 100MB there, pretty soon you are talking real memory!</li>
+		<li>Improving performance by decreasing icache and dcache footprint.</li>
+	</ul></li>
+	<li>Limits to scalability:
+	<ul>
+		<li>Technological limitations, especially hardware.</li>
+		<li>Complexity/maintainability limitations.</li>
+	</ul></li>
+	<li>Handling of non-<span class="caps">CPU</span> computational hardware (GPGPUs, crypto HW, etc.):
+	<ul>
+		<li>Can the kernel make good use of non-<span class="caps">CPU</span> computational hardware?</li>
+		<li>How best to enable user applications to use them?</li>
+	</ul></li>
+	<li>Dealing with the numerous remaining &#8220;little kernel locks&#8221;.</li>
+</ul>
+<p><a href="http://wiki.linuxplumbersconf.org/2011:scaling">Wiki</a></p></span>
+  
+  
+
+  <h3 class='track block track-111'><a href="111">Tracing</a></h3>
+  <span class="description"><p>Tracing within the Linux kernel and userland helps in seeing how and why the system acts the way it does. Tracing facilitates the debuging of the system as well as understanding the reason the system behaves in a certain way.</p>
+<p>Currently, there are many approaches to tracing, with different tools, somewhat overlapping in functionality, but also with different target users in mind. Some tools are in kernel only (some within the kernel source code), some are also providing userspace tracing of applications. Ftrace and Perf fall in the former category, while LTTng and systemtap in the latter.</p>
+<p>This miniconf will help providing a forum for the developers to have discussions on how to integrate the various tools, and how to advance the infrastructure in the kernel.</p></span>
+  
+  
+
+  <h3 class='track block track-117'><a href="117">Unified Memory Management</a></h3>
+  <span class="description"><p>One of the big issues we’ve been faced with at Linaro is around <span class="caps">GPU</span> and multimedia device integration, in particular the memory management requirements for supporting them on <span class="caps">ARM</span>. This cycle, we are focusing on driving consensus around a unified memory management solution for embedded systems that support multiple architectures and SoCs; though the goal is that the solution be applicable to all architectures.</p>
+<p>The effort officially kicked off with a birds-of-a-feather discussion at the Embedded Linux Conference in April, and really picked up steam at the mini-summit held at the Linaro Developer Summit in May. At the mini-summit, members of the community as well as vendor representatives discussed the issues faced when integrating all of the devices on an SoC, and why those efforts turned out not to be maintainable. For the kernel, these fall into 3 categories:</p>
+<p>- Allocation. Not all devices on an SoC have an <span class="caps">MMU</span>, and require physically contiguous buffers for <span class="caps">DMA</span> operations.</p>
+<p>- <span class="caps">DMA</span> mapping <span class="caps">API</span>. Some missing ops were identified, some were identified as needing updates, and cache management needed to be addressed.</p>
+<p>- Buffer sharing. No existing support (that anyone was aware of), so this is the one “new” piece of plumbing.</p>
+<p>The use case we used to illustrate the problem is that of a zero-copy pipeline from a video source (could be an input device or encoded file) through a codec, a signal processor, the <span class="caps">GPU</span> and display hardware.</p>
+<p>Here, we will check-point the effort, evaluate what’s been done and revise what’s left. The goal is a common solution, regardless of architecture.</p>
+<p><a href="http://wiki.linuxplumbersconf.org/2011:unified_memory_management">wiki</a></p></span>
+  
+  
+
+  <h3 class='track block track-57'><a href="57">Virtualization</a></h3>
+  <span class="description"><p>The Linux Plumbers 2011 Virtualization track is focusing on general free software Linux Virtualization. It is not focused on a specific hypervisor, but will focus on general virtualization issues and in particular collaboration amongst projects. This would include <span class="caps">KVM</span>, Xen, <span class="caps">QEMU</span>, containers etc.</p>
+<p>Topics:</p>
+<ul>
+	<li>Kernel and Hypervisor <span class="caps">KVM</span>/<span class="caps">QEMU</span>/Xen interaction</li>
+	<li><span class="caps">QEMU</span> integration, sharing of code between the different projects</li>
+	<li>IO Performance and scalability</li>
+	<li>Live Migration</li>
+	<li>Managing and supporting enterprise storage</li>
+	<li>Support for new hardware features, and/or provide guest access to these features.</li>
+	<li>Guest agents</li>
+	<li>Virtualization management tools, libvirt, etc.</li>
+	<li>Desktop integration</li>
+	<li>Consumer Electronics device emulation</li>
+	<li>Custom platform configuration and coordination with the kernel</li>
+</ul>
+<p>Audience</p>
+<p>Virtualization hypervisor developers, developers of virtualization management tools and applications, embedded virtualization developers, vendors and others.</p>
+<p><a href="http://wiki.linuxplumbersconf.org/2011:virtualization"><span class="caps">LPC</span> 2011 Virtualization Wiki</a></p></span>
+  
+  
+
+
+<div>
+
+<a href="../proposals" class="cancelable">Back to proposals</a>
+</div>
+
+
+        </div><!-- content -->
+      </div><!-- container -->
+
+        <div id="primary" class="sidebar">
+          <ul class="xoxo">
+            
+              <li id="login-as">
+                <h3>Welcome</h3>
+                <ul>
+                  <li><a href="../../LPC2011/proposals/new">Login</a></li>
+                  
+                </ul>
+              </li>
+            
+
+            <li id="subscribe-to">
+              <h3>Subscribe to</h3>
+              <ul>
+                <li class="pre-bulletted"><a href="../../../proposals.atom" class="feedable">Proposals feed</a></li>
+                
+              </ul>
+            </li>
+
+            
+          </ul>
+	  			<div id="sponsor-links">
+				<h3>Sponsors</h3>
+				<br>
+				<h5>Platinum</h5>
+				<br><a href="http://intel.com"><img src="../../../../style/intel_logo.png" /></a>
+				<br>
+				<br><a href="http://ibm.com"><img src="../../../../style/IBMtm.png" /></a>
+				<br>
+				<br><a href="http://qualcomm.com"><img src="../../../../style/Qualcomm.png" /></a>
+				<br>&nbsp;
+				<h5>Gold</h5>
+				<br><a href="http://google.com"><img src="../../../../style/google_logo.gif" /></a>
+				<!--
+				<br>
+				<br><a href="http://www.ti.com"><img src="/2011/style/ti_logo.gif" /></a>
+		-->
+				<br>&nbsp;
+				<h5>Silver</h5>
+				<br><a href="http://hp.com"><img src="../../../../style/hp_logo.gif" /></a>
+		<!--
+				<br>&nbsp;
+				<br><a href="http://www.akamai.com"><img src="/2011/style/akamai_logo_pms.png" /></a>
+		-->
+				<br>&nbsp;
+				<br><a href="http://www.linaro.org"><img src="../../../../style/linaro-1.png" /></a>
+				<br>&nbsp;
+				<a href="http://www.collabora.co.uk"><img src="../../../../style/collabora-logo.png" /></a>
+				<br>&nbsp;
+				<br><a href="http://canonical.com"><img src="../../../../style/canonical.png" /></a>
+
+				<br>&nbsp;
+				<br><a href="http://otn.oracle.com/linux"><img src="../../../../style/oracle.png" /></a>
+				<h3>Internet Sponsors</h3>
+				<br><a href="http://www.sonic.net"><img src="../../../../style/sonic.png" /></a>
+				<!--
+				<h3>Media Sponsors</h3>
+				<ul class="sponsor-links">
+
+					<li><a href="http://lwn.net"><img src="/2011/style/lwnlogo.png" /></a></li>
+					<li><a href="http://linuxjournel.com"><img src="/2011/style/ljcolor.png" /></a></li>
+					<li><a href="http://www.linuxpromagazine.com/"><img src="/2011/style/LinuxPro-logo.png" /></a></li>
+				</ul>
+-->
+			</div>
+
+
+
+        </div><!-- #sidebar-1 -->
+
+    <div id="footer">
+    <a href="http://osuosl.org"><img border="0" src="http://linuxplumbersconf.org/2011/style/osl-hosted.png" alt="OSL"/></a>
+    </div>
+
+  </div><!--wrapper -->
+
+  
+
+  <!-- arbitrary javascript from views -->
+  <script type="text/javascript">
+//<![CDATA[
+window._token = '2c4443b355bc31bee23c787833cb0a270f09bb07'
+//]]>
+</script>
+  <script type="text/javascript">
+    
+  </script>
+
+  
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-168427-8");
+      pageTracker._initData();
+      pageTracker._trackPageview();
+    </script>
+
+    <script src="http://static.getclicky.com/79611.js" type="text/javascript"></script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="http://static.getclicky.com/79611-db10.gif" /></p></noscript>
+  
+</body>
+</html>
